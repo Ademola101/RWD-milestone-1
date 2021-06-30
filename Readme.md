@@ -20,7 +20,9 @@ HTML <br> CSS
 
 👤 **Author 2**
 
-- GitHub: [@shadrxx](https://github.com/shadrxx)
+- GitHub: [@shadrxcc](https://github.com/shadrxcc)
+- Twitter: [@shadrxcc](https://twitter.com/shadrxcc)
+- LinkedIn: [Shadrach Akaade](https://www.linkedin.com/in/shadrach-akaade-24a375189/)
 
 
 ## 🤝 Contributing
