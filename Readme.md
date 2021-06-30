@@ -23,10 +23,6 @@ HTML <br> CSS
 - GitHub: [@shadrxcc](https://github.com/shadrxcc)
 - Twitter: [@shadrxcc](https://twitter.com/shadrxcc)
 - LinkedIn: [Shadrach Akaade](https://www.linkedin.com/in/shadrach-akaade-24a375189/)
-<<<<<<< HEAD
-
-=======
->>>>>>> c507d03b1a9d850d604c81fccea44578322e8f0f
 
 ## 🤝 Contributing
 
