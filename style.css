@@ -1,0 +1,31 @@
+.main_heading {
+  color: rgb(255, 68, 34);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.news_container {
+  display: flex;
+}
+
+.news_image {
+  width: 30vw;
+  margin-right: 2%;
+}
+
+.news_image > img {
+  height: 25%;
+  max-width: 100%;
+}
+
+.news_headline {
+  margin-right: 4%;
+}
+
+.news_headline > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
