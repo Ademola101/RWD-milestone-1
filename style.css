@@ -1,3 +1,134 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.box-1 {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.box-2 {
+  background-color: white;
+}
+
+.box-3 {
+  background-color: white;
+  border-right: 1px grey solid;
+  border-left: 1px grey solid;
+}
+
+.box-4 {
+  background-color: white;
+}
+
+.box-5 {
+  background-color:yellow;
+  border: 1px grey solid;
+  padding: 10px;
+}
+
+.box-6 {
+  background-color:black;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.box-7 {
+  background-color: white;
+  flex: 3;
+  padding-right: 100px;
+  margin-left: -20px;
+}
+
+.box-8 {
+  background-color: white;
+  border-left: 1px solid gray;
+}
+
+.box-9 {
+  background-color: springgreen;
+}
+
+.box-10 {
+  background-color: saddlebrown;
+}
+
+.box {
+  font-size: 30px;
+  text-align: center;
+  flex: 1;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  border: 1px solid gray; 
+}
+
+.box-2 {
+  flex: 5;
+}
+
+.search-2 {
+  margin-top: 10px;
+}
+
+.tnw-logo {
+  width:90%;
+  height: 20px;
+}
+
+a.callup {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 5px;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  border: 1px solid gray; 
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  position: relative;
+  right: 5.8%;
+  justify-content: space-between;
+}
+
+a.INFO {
+  text-decoration: none;
+  color:white;
+  font-size: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a.update {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 7px;
+}
+
+a.update:hover {
+  color: black;
+}
+
+.rect-box {
+  display: flex;
+  flex: 1;
+}
+
 .main_heading {
   color: rgb(255, 68, 34);
   text-decoration: none;
@@ -35,4 +166,3 @@
  color: rgb(170, 170, 170);
  margin-bottom: 2%;
 }
-
