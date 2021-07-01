@@ -8,7 +8,7 @@ HTML <br> CSS
 
 ## Live Demo
 
-[Live Demo link](https//ademola101.github.io/RWD-milestone-1/)
+[Live Demo link](https://ademola101.github.io/RWD-milestone-1/)
 
 ## Authors
 
