@@ -1,5 +1,5 @@
 # Replica of the archive The Next Web
-> A replica of [The Next Web](https://perma.cc/M5ZV-Q2D6) 
+> A replica of archive version of [The Next Web](https://perma.cc/M5ZV-Q2D6) 
 
 ![screenshot]()
 
@@ -23,7 +23,6 @@ HTML <br> CSS
 - GitHub: [@shadrxcc](https://github.com/shadrxcc)
 - Twitter: [@shadrxcc](https://twitter.com/shadrxcc)
 - LinkedIn: [Shadrach Akaade](https://www.linkedin.com/in/shadrach-akaade-24a375189/)
-
 
 ## 🤝 Contributing
 

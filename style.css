@@ -44,12 +44,12 @@ html {
 }
 
 .box-8 {
-    background-color: white;
-    border-left: 1px solid gray;
+  background-color: white;
+  border-left: 1px solid gray;
 }
 
 .box-9 {
-    background-color: springgreen;
+  background-color: springgreen;
 }
 
 .box-10 {
@@ -69,7 +69,7 @@ html {
 }
 
 .box-2 {
-    flex: 5;
+  flex: 5;
 }
 
 .search-2 {
@@ -82,13 +82,13 @@ html {
 }
 
 a.callup {
-    text-decoration: none;
-    color: black;
-    font-size: 10px;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    bottom: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 5px;
 }
 
 .info {
@@ -127,4 +127,35 @@ a.update:hover {
 .rect-box {
   display: flex;
   flex: 1;
+}
+
+.main_heading {
+  color: rgb(255, 68, 34);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.news_container {
+  display: flex;
+}
+
+.news_image {
+  width: 30vw;
+  margin-right: 2%;
+}
+
+.news_image > img {
+  height: 25%;
+  max-width: 100%;
+}
+
+.news_headline {
+  margin-right: 4%;
+}
+
+.news_headline > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  line-height: 1.5;
 }
