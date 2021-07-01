@@ -158,11 +158,35 @@ a.update:hover {
   text-decoration: none;
   color: black;
   font-weight: 700;
-  line-height: normal
+  line-height: normal;
   margin-bottom: 5%;
 }
 
 .news_link + div {
  color: rgb(170, 170, 170);
  margin-bottom: 2%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .news_container {
+  display: inline;
+  width: 20vw;
+  margin-right: 2%;
+}
+
+  .news_image {
+  display: inline;
+  }
+
+  .container {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  }
+
+  
+}
+
+main {
+  margin-left: 2%;
 }
