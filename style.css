@@ -14,18 +14,25 @@
 }
 
 .news_image > img {
-  height: 25%;
+  max-height: 100%;
   max-width: 100%;
+  margin-bottom: 5%;
 }
 
 .news_headline {
   margin-right: 4%;
 }
 
-.news_headline > a {
+.news_link {
   text-decoration: none;
   color: black;
-  font-weight: 900;
-  line-height: 1.5;
+  font-weight: 700;
+  line-height: normal
+  margin-bottom: 5%;
+}
+
+.news_link + div {
+ color: rgb(170, 170, 170);
+ margin-bottom: 2%;
 }
 
