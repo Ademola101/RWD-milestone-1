@@ -180,6 +180,10 @@ a.update:hover {
     width: 100vw;
     flex-wrap: wrap;
   }
+
+  body {
+    width: 100vw;
+  }
 }
 
 main {
@@ -211,6 +215,7 @@ main {
   background-color: #f42;
   font-size: 18px !important;
   padding: 10.67px 16px 10.67px 84px;
+  height: 30px;
 }
 
 .ringover > img {
