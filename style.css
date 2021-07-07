@@ -236,6 +236,7 @@ main {
   letter-spacing: 1.5px;
 }
 
+<<<<<<< HEAD
 .series {
   background-color: rgba(255,68,34,.08);
   width: 100vw;
@@ -266,3 +267,38 @@ main {
   position: relative;
   top: 5px;
 }
+=======
+footer {
+  background-color: rgb(41, 40, 40);
+  width: 100vw;
+  color: white;
+}
+
+.footer-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+  margin: 0 10px;
+} 
+
+ul {
+  display: flex;
+}
+
+a.footer {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-btm {
+  background-color: black;
+  width: 100vw;
+  text-align: center;
+  padding: 20px;
+}
+>>>>>>> 1b91040eaa0afef17dca5f554f66725ddd6bb226
