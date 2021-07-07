@@ -26,32 +26,6 @@ html {
   padding: 10px;
 }
 
-.box-6 {
-  background-color: black;
-  margin-top: 10px;
-  width: 100%;
-}
-
-.box-7 {
-  background-color: white;
-  flex: 3;
-  padding-right: 100px;
-  margin-left: -20px;
-}
-
-.box-8 {
-  background-color: white;
-  border-left: 1px solid gray;
-}
-
-.box-9 {
-  background-color: springgreen;
-}
-
-.box-10 {
-  background-color: saddlebrown;
-}
-
 .box {
   font-size: 30px;
   text-align: center;
