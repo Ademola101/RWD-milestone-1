@@ -250,7 +250,6 @@ main {
 
 footer {
   background-color: rgb(41, 40, 40);
-  width: 100vw;
   color: white;
 }
 
@@ -259,6 +258,10 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-top: 15px;
+  width: 15%;
+  position: relative;
+  left: 150px;
 }
 
 li {
@@ -271,11 +274,20 @@ a.footer {
   color: white;
 }
 
-.footer-btm {
-  background-color: black;
-  width: 100vw;
-  text-align: center;
-  padding: 20px;
+.btm-nav {
+   width: 100%; 
+   position: relative;
+   right: 180px;
+   font-size: 80%;
+}
+
+.socials {
+}
+
+a.sm {
+  background-color: rgb(73, 72, 72);
+  border-radius: 60px;
+  padding: 10px;
 }
 
 .tel {
