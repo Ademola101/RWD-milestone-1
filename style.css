@@ -168,6 +168,7 @@ a.update:hover {
 
 main {
   margin-left: 2%;
+  margin-bottom: 200px;
 }
 
 .space {
@@ -217,7 +218,7 @@ main {
 }
 
 .series {
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
   width: 100vw;
   position: relative;
   bottom: 25px;
@@ -249,7 +250,6 @@ main {
 
 footer {
   background-color: rgb(41, 40, 40);
-  width: 100vw;
   color: white;
 }
 
@@ -258,15 +258,15 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-top: 15px;
+  width: 15%;
+  position: relative;
+  left: 150px;
 }
 
 li {
   list-style: none;
   margin: 0 10px;
-} 
-
-ul {
-  display: flex;
 }
 
 a.footer {
@@ -274,11 +274,11 @@ a.footer {
   color: white;
 }
 
-.footer-btm {
-  background-color: black;
-  width: 100vw;
-  text-align: center;
-  padding: 20px;
+.btm-nav {
+   width: 100%; 
+   position: relative;
+   right: 180px;
+   font-size: 80%;
 }
 
 @media only screen and (min-width: 375px) {
@@ -356,4 +356,32 @@ a.footer {
 .second-section-img-tag:hover {
 	color: #fff;
 }
+a.sm {
+  background-color: rgb(73, 72, 72);
+  border-radius: 60px;
+  padding: 10px;
+}
+
+.tel {
+  margin-top: 70px;
+  margin-bottom: 2%;
+}
+i + a {
+  text-decoration: none;
+  color: gray;
+}
+
+.tel-subtext {
+  text-decoration: none;
+  color: gray;
+  width: 80%;
+}
+
+.tel-subtext-container {
+  border-top: solid 1px rgba(255, 68, 34, 0.08);
+  margin-top: 5px;
+}
+
+.funding-items {
+  margin-bottom: 10%;
 }
