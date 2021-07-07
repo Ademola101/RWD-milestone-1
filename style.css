@@ -235,3 +235,37 @@ main {
   font-size: large;
   letter-spacing: 1.5px;
 }
+
+footer {
+  background-color: rgb(41, 40, 40);
+  width: 100vw;
+  color: white;
+}
+
+.footer-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+  margin: 0 10px;
+} 
+
+ul {
+  display: flex;
+}
+
+a.footer {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-btm {
+  background-color: black;
+  width: 100vw;
+  text-align: center;
+  padding: 20px;
+}
