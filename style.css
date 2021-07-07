@@ -26,32 +26,6 @@ html {
   padding: 10px;
 }
 
-.box-6 {
-  background-color: black;
-  margin-top: 10px;
-  width: 100%;
-}
-
-.box-7 {
-  background-color: white;
-  flex: 3;
-  padding-right: 100px;
-  margin-left: -20px;
-}
-
-.box-8 {
-  background-color: white;
-  border-left: 1px solid gray;
-}
-
-.box-9 {
-  background-color: springgreen;
-}
-
-.box-10 {
-  background-color: saddlebrown;
-}
-
 .box {
   font-size: 30px;
   text-align: center;
@@ -242,6 +216,38 @@ main {
   letter-spacing: 1.5px;
 }
 
+<<<<<<< HEAD
+.series {
+  background-color: rgba(255,68,34,.08);
+  width: 100vw;
+  position: relative;
+  bottom: 25px;
+  height: 60px;
+  right: 85px;
+}
+
+.series > a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: 900;
+  margin-left: 25%;
+  position: relative;
+  top: 10px;
+}
+
+.series-link {
+  text-decoration: none;
+  line-height: 1.5;
+  font-family: Shentox, sans-serif;
+  text-transform: uppercase;
+  color: silver;
+  font-weight: 100;
+  margin-left: 90px;
+  position: relative;
+  top: 5px;
+}
+=======
 footer {
   background-color: rgb(41, 40, 40);
   width: 100vw;
@@ -275,3 +281,4 @@ a.footer {
   text-align: center;
   padding: 20px;
 }
+>>>>>>> 1b91040eaa0afef17dca5f554f66725ddd6bb226
