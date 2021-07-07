@@ -77,6 +77,12 @@ ul {
   justify-content: space-between;
 }
 
+.fa {
+	color: black;
+	height: 20px;
+	width: 30px;
+}
+
 a.INFO {
   text-decoration: none;
   color: white;
