@@ -111,6 +111,120 @@ a.update:hover {
   font-weight: bolder;
 }
 
+
+.highlight-container {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	font-family: Avalon,sans-serif;
+  font-size: 22px;
+	font-weight: bold;
+  letter-spacing: -.015em;
+	color: #fff;
+}
+.first-highlight {
+	transition: background-color .4s ease;
+	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/firsihighlight.jpg");
+  background-size: 100% 100%;
+  display: block;
+	max-width: 100%;
+	max-height: 100%;
+  will-change: background-color;
+  z-index: 2;
+}
+
+.first-highlight:hover{
+	opacity: 0.8;
+	transition: ease-in-out 0.2s;
+}
+
+.first-highlight-text-leading {
+	display: none;
+}
+
+.first-highlight-text{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 80px;
+	cursor: pointer;
+}
+
+.first-highlight-sub-text {
+	color: hsla(0,0%,100%,.6);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-top: -10px;
+	font-size: 16px;
+}
+
+.second-highlight {
+	transition: background-color .4s ease;
+	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/seconhighlight.webp");
+  background-size: 100% 100%;
+  display: block;
+	max-width: 100%;
+	margin-top: 9px;
+	max-height: 100%;
+  will-change: background-color;
+  z-index: 2;
+}
+.second-highlight:hover{
+	opacity: 0.8;
+	transition: ease-in-out 0.2s;
+}
+
+.third-highlight {
+	transition: background-color .4s ease;
+	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/thirdhighlight.webp");
+  background-size: 100% 100%;
+  display: block;
+	max-width: 100%;
+	margin-top: 9px;
+	max-height: 100%;
+  will-change: background-color;
+  z-index: 2;
+}
+.third-highlight:hover{
+	opacity: 0.8;
+	transition: ease-in-out 0.2s;
+}
+
+.other-highlight-text{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 80px;
+	cursor: pointer;
+}
+.other-highlight-sub-text {
+	color: hsla(0,0%,100%,.6);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: -10px;
+	font-size: 16px;
+}
+.namehigh:hover {
+	cursor: pointer;
+	color: #fff;
+}
+.fa-share-alt {
+	color: hsla(0,0%,100%,.6);
+	margin-right: -7px;
+	margin-left: 5px;
+}
+
+.fa-clock {
+	color: hsla(0,0%,100%,.6);
+	margin-right: -7px;
+	margin-left: 5px;
+}
+/* break */
+
+
+
 .news_container {
   display: flex;
 }
@@ -147,6 +261,9 @@ a.update:hover {
 
 
 
+
+@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
 
 /* fullwidth */
 .highlight-container {
@@ -281,10 +398,9 @@ a.update:hover {
 	margin-left: 5px;
 }
 
+/* End */
 
 
-@media only screen and (min-width: 1024px) {
-@media only screen and (min-width: 768px) {
   .news_container {
     display: inline;
     width: 20vw;
@@ -492,116 +608,7 @@ footer {
 }
 }
 
-@media only screen and (min-width: 400px) {
-.highlight-container {
-	display: flex;
-	flex-direction: column;
-	overflow: hidden;
-	font-family: Avalon,sans-serif;
-  font-size: 22px;
-	font-weight: bold;
-  letter-spacing: -.015em;
-	color: #fff;
-}
-.first-highlight {
-	transition: background-color .4s ease;
-	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/firsihighlight.jpg");
-  background-size: 100% 100%;
-  display: block;
-	max-width: 100%;
-	max-height: 100%;
-  will-change: background-color;
-  z-index: 2;
-}
-
-.first-highlight:hover{
-	opacity: 0.8;
-	transition: ease-in-out 0.2s;
-}
-
-.first-highlight-text-leading {
-	display: none;
-}
-
-.first-highlight-text{
-	display: inline-block;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-top: 80px;
-	cursor: pointer;
-}
-
-.first-highlight-sub-text {
-	color: hsla(0,0%,100%,.6);
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 20px;
-	padding-top: -10px;
-	font-size: 16px;
-}
-
-.second-highlight {
-	transition: background-color .4s ease;
-	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/seconhighlight.webp");
-  background-size: 100% 100%;
-  display: block;
-	max-width: 100%;
-	margin-top: 9px;
-	max-height: 100%;
-  will-change: background-color;
-  z-index: 2;
-}
-.second-highlight:hover{
-	opacity: 0.8;
-	transition: ease-in-out 0.2s;
-}
-
-.third-highlight {
-	transition: background-color .4s ease;
-	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/thirdhighlight.webp");
-  background-size: 100% 100%;
-  display: block;
-	max-width: 100%;
-	margin-top: 9px;
-	max-height: 100%;
-  will-change: background-color;
-  z-index: 2;
-}
-.third-highlight:hover{
-	opacity: 0.8;
-	transition: ease-in-out 0.2s;
-}
-
-.other-highlight-text{
-	display: inline-block;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-top: 80px;
-	cursor: pointer;
-}
-.other-highlight-sub-text {
-	color: hsla(0,0%,100%,.6);
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-top: -10px;
-	font-size: 16px;
-}
-.namehigh:hover {
-	cursor: pointer;
-	color: #fff;
-}
-.fa-share-alt {
-	color: hsla(0,0%,100%,.6);
-	margin-right: -7px;
-	margin-left: 5px;
-}
-
-.fa-clock {
-	color: hsla(0,0%,100%,.6);
-	margin-right: -7px;
-	margin-left: 5px;
-}
+@media only screen and (min-width: 375px) {
 
 a.sm {
   background-color: rgb(73, 72, 72);
@@ -644,4 +651,5 @@ i + a {
 
 .accessibility {
   float: right;
+}
 }
