@@ -25,6 +25,19 @@ html {
   padding: 10px;
 }
 
+.boxx-5 {
+  background-color: #fcda19;
+  padding: 4px;
+}
+
+a.callup-1 {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+}
+
 .box {
   font-size: 30px;
   text-align: center;
@@ -44,6 +57,108 @@ html {
 
 .search-2 {
   margin-top: 10px;
+}
+
+.num {
+  flex: 5;
+  background-color: #000;
+}
+
+.up {
+  position: relative;
+  top: 5px;
+}
+
+a.topnav {
+  color: rgb(117, 114, 114);
+  text-decoration: none;
+}
+
+a.topnav:hover {
+  color: white;
+}
+
+.deux {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.trois {
+  flex: 9;
+  padding-left: 30px;
+}
+
+.quartz {
+  padding-right: 35px;
+  padding-top: 7px;
+}
+
+.cont {
+  color: rgb(97, 96, 96);
+  background-color: white;
+}
+
+@media only screen and  (min-width:600px) {
+  .mobile-header {
+    display: none;
+  }
+
+}
+
+.desktoph-2 {
+  display: flex;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  background-color: #000;
+}
+
+.num ul li:hover .dropdown {
+  display: block;
+}
+
+.dropdown ul {
+  display: block;
+  margin: 10px;
+}
+
+.iconify {
+  position: relative;
+  top: 3px;
+}
+
+.events {
+  position: relative;
+  bottom: 2px;
+}
+
+.edge {
+  margin-left: 460px;
+}
+
+.dropdown ul li {
+  width: 150px;
+  padding: 3px;
+}
+
+a.drp {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+}
+
+a.drp:hover {
+  color: white;
+  background-color: #333;
+  padding: 5px;
+}
+
+a.readme {
+  text-decoration: none;
+  color: rgb(114, 111, 111);
 }
 
 .tnw-logo {
@@ -68,12 +183,16 @@ a.callup {
   justify-content: space-between;
 }
 
+.scope {
+  position: relative;
+  bottom: 10px;
+}
+
 ul {
   list-style: none;
   display: flex;
   position: relative;
-  right: 5.8%;
-  justify-content: space-between;
+  padding: 5px;
 }
 
 .fa {
@@ -257,9 +376,10 @@ a.update:hover {
   margin-bottom: 2%;
 }
 
-
-
-
+@media only screen and (min-width: 768px) {
+  .desktop-header {
+    display: none;
+  }
 
 
 
@@ -405,6 +525,10 @@ a.update:hover {
     display: inline;
     width: 20vw;
     margin-right: 2%;
+  }
+
+  a.callup {
+    font-size: 65%;
   }
 
   .news_image {
@@ -651,5 +775,4 @@ i + a {
 
 .accessibility {
   float: right;
-}
 }
