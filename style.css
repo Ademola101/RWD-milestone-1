@@ -564,6 +564,10 @@ i + a {
   .desktop-header {
     display: block;
   }
+
+  .mobile-header {
+    display: none;
+  }
   
 /* fullwidth */
 .highlight-container {
@@ -679,7 +683,7 @@ i + a {
 
   }
   
-  header {
+  .latest-header {
     display: flex;
   }
 }
