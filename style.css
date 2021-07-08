@@ -230,6 +230,120 @@ a.update:hover {
   font-weight: bolder;
 }
 
+
+.highlight-container {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	font-family: Avalon,sans-serif;
+  font-size: 22px;
+	font-weight: bold;
+  letter-spacing: -.015em;
+	color: #fff;
+}
+.first-highlight {
+	transition: background-color .4s ease;
+	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/firsihighlight.jpg");
+  background-size: 100% 100%;
+  display: block;
+	max-width: 100%;
+	max-height: 100%;
+  will-change: background-color;
+  z-index: 2;
+}
+
+.first-highlight:hover{
+	opacity: 0.8;
+	transition: ease-in-out 0.2s;
+}
+
+.first-highlight-text-leading {
+	display: none;
+}
+
+.first-highlight-text{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 80px;
+	cursor: pointer;
+}
+
+.first-highlight-sub-text {
+	color: hsla(0,0%,100%,.6);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-top: -10px;
+	font-size: 16px;
+}
+
+.second-highlight {
+	transition: background-color .4s ease;
+	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/seconhighlight.webp");
+  background-size: 100% 100%;
+  display: block;
+	max-width: 100%;
+	margin-top: 9px;
+	max-height: 100%;
+  will-change: background-color;
+  z-index: 2;
+}
+.second-highlight:hover{
+	opacity: 0.8;
+	transition: ease-in-out 0.2s;
+}
+
+.third-highlight {
+	transition: background-color .4s ease;
+	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/thirdhighlight.webp");
+  background-size: 100% 100%;
+  display: block;
+	max-width: 100%;
+	margin-top: 9px;
+	max-height: 100%;
+  will-change: background-color;
+  z-index: 2;
+}
+.third-highlight:hover{
+	opacity: 0.8;
+	transition: ease-in-out 0.2s;
+}
+
+.other-highlight-text{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 80px;
+	cursor: pointer;
+}
+.other-highlight-sub-text {
+	color: hsla(0,0%,100%,.6);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: -10px;
+	font-size: 16px;
+}
+.namehigh:hover {
+	cursor: pointer;
+	color: #fff;
+}
+.fa-share-alt {
+	color: hsla(0,0%,100%,.6);
+	margin-right: -7px;
+	margin-left: 5px;
+}
+
+.fa-clock {
+	color: hsla(0,0%,100%,.6);
+	margin-right: -7px;
+	margin-left: 5px;
+}
+/* break */
+
+
+
 .news_container {
   display: flex;
 }
@@ -267,6 +381,146 @@ a.update:hover {
     display: none;
   }
 
+
+@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
+
+/* fullwidth */
+.highlight-container {
+	padding: 14px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	font-family: Avalon,sans-serif;
+  font-size: 27px;
+	font-weight: bold;
+  letter-spacing: -.015em;
+	color: #fff;
+}
+.first-highlight {
+	transition: background-color .4s ease;
+	background: linear-gradient( rgba(255,0,0,0.25), rgba(0,0,0,30)), url("images/firsihighlight.jpg");
+  background-size: 100% 100%;
+  display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.first-highlight:hover{
+	opacity: 0.8;
+	transition: ease-in-out 0.2s;
+}
+
+.first-highlight-text-leading {
+	display: flex;
+}
+
+.first-highlight-text-img {
+	width: 400px;
+	height: 100px;
+	padding: 10px;
+	position: relative;
+}
+
+.logo-time {
+	display: inline-flex;
+	flex-direction: row-reverse;
+	padding: 10px;
+  font-size: 16px;
+  flex: 2;
+}
+
+.first-highlight-text{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.first-highlight-sub-text {
+	display: block;
+	color: hsla(0,0%,100%,.6);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-top: -10px;
+	font-size: 16px;
+}
+.grip-highlight {
+	padding: 10px;
+	flex: 2;
+	
+}
+.drop {
+	display: inline-block;
+}
+.second-highlight {
+	transition: background-color .4s ease;
+	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/seconhighlight.webp");
+  background-size: 100% 100%;
+  display: block;
+	max-width: 100%;
+	height: 245px;
+  will-change: background-color;
+  z-index: 2;
+}
+.second-highlight:hover{
+	opacity: 0.8;
+	transition: ease-in-out 0.2s;
+}
+
+.third-highlight {
+	transition: background-color .4s ease;
+	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/thirdhighlight.webp");
+  background-size: 100% 100%;
+  display: block;
+	max-width: 100%;
+	margin-top: 9px;
+	height: 245px;
+  will-change: background-color;
+  z-index: 2;
+}
+.third-highlight:hover{
+	opacity: 0.8;
+	transition: ease-in-out 0.2s;
+}
+
+.other-highlight-text{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 80px;
+	cursor: pointer;
+}
+.other-highlight-sub-text {
+	color: hsla(0,0%,100%,.6);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: -10px;
+	font-size: 16px;
+}
+.namehigh:hover {
+	cursor: pointer;
+	color: #fff;
+}
+.fa-share-alt {
+	color: hsla(0,0%,100%,.6);
+	margin-right: -7px;
+	margin-left: 5px;
+}
+
+.fa-clock {
+	color: hsla(0,0%,100%,.6);
+	margin-right: -7px;
+	margin-left: 5px;
+}
+
+/* End */
+
+
   .news_container {
     display: inline;
     width: 20vw;
@@ -289,6 +543,51 @@ a.update:hover {
 
   body {
     width: 100vw;
+  }
+
+  .latest-side {
+    display: inline;
+    margin-left: 20%;
+  }
+  body .small_latest_link {
+    text-decoration: none;
+    color: rgb(255, 68, 34);
+    display: inline;
+    border-right: 2px solid rgb(255, 68, 34);
+  }
+  
+
+  .funding-container {
+    display: flex;
+  }
+
+  .funding-items {
+    width: 20vw;
+    margin-right: 2%;
+  }
+
+ body .series {
+    background-color: rgba(255, 68, 34, 0.08);
+    width: 20vw;
+    margin-top: 0;
+    position: relative;
+    bottom: 50px;
+  }
+  
+  body .ring_link{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    letter-spacing: 1.5px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+
+  }
+  
+  header {
+    display: flex;
   }
 }
 
@@ -430,89 +729,10 @@ footer {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-
+}
+}
 
 @media only screen and (min-width: 375px) {
-
-.second-section {
-	display: block;
-  margin-top: 100px;
-  margin-bottom: 50px;
-	max-width: 100%;
-}
-
-.body-second-section{
-  padding: 5px;
-	max-width: 100%;
-	width: 365px;
-}
-
-.second-section-heading{
-  width: 250px;
-}
-
-.second-section-heading-text {
-  color: #f42;
-	font-size: 40px ;
-	font-weight: 900;
-	cursor: pointer;
-}
-.second-section-heading-text:hover > .fa.fa-chevron-right {
-  color: #000;
-}
-
-.fa.fa-chevron-right {
-	color: #f42;
-	align-self: center;
-	font-size: 25px;
-}
-
-.second-section-img1 {
-	background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url("images/imghardfork.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	max-width: 100%;
-	height: 276px;
-	opacity: 7;
-}
-
-.second-section-img-text {
-	margin-top: 150px;
-	color: #fff;
-	display: inline-block;
-  font-size: 13px;
-  font-family: Shentox,sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: .04em;
-  line-height: 1.5;
-	padding: 10px;
-}
-
-.second-section-img-words {
-	margin-top: -10px;
-	padding:10px;
-	color: #fff;
-	margin-bottom: 6px;
-	letter-spacing: 1px;
-	font-size: 20px;
-	display: inline-block;
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-	font-weight: 700;
-	line-height: 1.1;
-}
-
-.second-section-img-tag {
-	color: hsla(0,0%,100%,.6);
-	font-size: 12px;
-	font-weight: 500;
-	line-height: 16px;
-	padding: 10px;
-}
-
-.second-section-img-tag:hover {
-	color: #fff;
-}
 
 a.sm {
   background-color: rgb(73, 72, 72);
