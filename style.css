@@ -224,6 +224,7 @@ a.update:hover {
   font-weight: bolder;
 }
 
+/* fullwidth */
 
 .highlight-container {
 	display: flex;
@@ -566,135 +567,50 @@ i + a {
   
 /* fullwidth */
 .highlight-container {
-	padding: 14px;
 	display: flex;
-	max-width: 100%;
-	height: 700px;
-	overflow: hidden;
-	font-family: Avalon,sans-serif;
-  font-size: 27px;
-	font-weight: bold;
-  letter-spacing: -.015em;
-	color: #fff;
-}
-.first-highlight {
-	transition: background-color .4s ease;
-	background: linear-gradient( rgba(255,0,0,0.25), rgba(0,0,0,30)), url("images/firsihighlight.jpg");
-  background-size: 100% 100%;
-  display: block;
-	max-width: 100%;
-	max-height: 100%;
+	flex-direction: row;
 }
 
-.first-highlight:hover{
-	opacity: 0.8;
-	transition: ease-in-out 0.2s;
+.first-highlight {
+	display: flex;
+	background: linear-gradient( rgba(255,0,0,0.25), rgba(0,0,0,30)), url("images/firsihighlight.jpg");
+	flex-wrap: wrap;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	flex-direction: column;
 }
 
 .first-highlight-text-leading {
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
-	max-width: 100%;
+	flex: 2;
 }
 
 .first-highlight-text-img {
-	max-width: 20%;	
+	width: 40%;
+	background: linear-gradient( (225 225 225),(225 225 225) );
 	padding: 10px;
+}
 
+.first-highlight-text-img img {
+	max-width: 100%;
 }
 
 .logo-time {
-	text-align: end;
-	padding: 10px;
-  font-size: 16px;
-}
-
-.first-highlight-text{
-	display: inline-block;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-top: 10px;
-	cursor: pointer;
-}
-
-.first-highlight-sub-text {
-	display: block;
-	color: hsla(0,0%,100%,.6);
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 20px;
-	padding-top: -10px;
-	font-size: 16px;
-}
-.grip-highlight {
-	display: block;
-
-	padding: 10px;
 	
 }
-.drop {
-	display: inline-block;
+.first-highlight-text {
+	flex: 1;
+	align-self: flex-end;
+	font-size: 19px;
+	margin-top: 0;
 }
-.second-highlight {
-	transition: background-color .4s ease;
-	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/seconhighlight.webp");
-  background-size: 100% 100%;
-  display: block;
-	max-width: 100%;
-	height: 245px;
-  z-index: 2;
-}
-.second-highlight:hover{
-	opacity: 0.8;
-	transition: ease-in-out 0.2s;
-}
-
-.third-highlight {
-	transition: background-color .4s ease;
-	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/thirdhighlight.webp");
-  background-size: 100% 100%;
-  display: block;
-	max-width: 100%;
-	margin-top: 9px;
-	height: 245px;
-  z-index: 2;
-}
-.third-highlight:hover{
-	opacity: 0.8;
-	transition: ease-in-out 0.2s;
-}
-
-.other-highlight-text{
-	display: inline-block;
+.grid-highlight {
 	padding: 10px;
-	margin-top: 80px;
-	cursor: pointer;
+	max-width: 100%;
+	max-height: 100%;
 }
-.other-highlight-sub-text {
-	color: hsla(0,0%,100%,.6);
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-top: -10px;
-	font-size: 16px;
-}
-.namehigh:hover {
-	cursor: pointer;
-	color: #fff;
-}
-.fa-share-alt {
-	color: hsla(0,0%,100%,.6);
-	margin-right: -7px;
-	margin-left: 5px;
-}
-
-.fa-clock {
-	color: hsla(0,0%,100%,.6);
-	margin-right: -7px;
-	margin-left: 5px;
-}
-
 /* End */
 
 
