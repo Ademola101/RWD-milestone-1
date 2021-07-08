@@ -763,7 +763,7 @@ i + a {
 
   }
   
-  header {
+  .latest-header {
     display: flex;
   }
 }
