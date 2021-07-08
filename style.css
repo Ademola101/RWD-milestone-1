@@ -677,7 +677,8 @@ i + a {
 }
 
 .third-highlight {
-	max-width: 100%;
+	max-height: 100%;
+	bottom: 0;
 }
 
 /* yinka stops */
