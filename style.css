@@ -7,7 +7,6 @@ html {
 
 .box-1 {
   background-color: black;
-  width: 100px;
 }
 
 .box-3 {
@@ -283,13 +282,6 @@ footer {
    padding: 10px;
    width: 2px;
  }
-
-.btm-nav {
-   width: 100%; 
-   position: relative;
-   right: 180px;
-   font-size: 80%;
-}
 
 .stackpath {
   width: 20%;
