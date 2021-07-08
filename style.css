@@ -593,20 +593,20 @@ i + a {
 
 .first-highlight-text-img {
 	width: 40%;
+	flex: 2;
 	padding: 10px;
 }
 
 .first-highlight-text-img img {
-	max-width: 100%;
+	max-width: 90%;
 }
 
 .logo-time {
-	
+	padding: 10px;
 }
 .first-highlight-text {
 	flex: 1;
-	align-self: flex-end;
-	font-size: 19px;
+	font-size: 50px;
 	margin-top: 0;
 }
 .grid-highlight {
@@ -614,6 +614,26 @@ i + a {
 	max-width: 100%;
 	max-height: 100%;
 }
+
+.drop {
+	display: inline-block;
+}
+
+.second-highlight {
+	max-height: 100%;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.other-highlight-sub-text {
+	max-width: 100%;
+	font-stretch:expanded;
+}
+
+.third-highlight {
+	max-width: 100%;
+}
+
 /* End */
 
 
