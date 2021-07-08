@@ -490,24 +490,11 @@ footer {
    width: 2px;
  }
 
-.stackpath {
-  width: 20%;
-  position: relative;
-}
-
-.next {
-  width: 10%;
-  position: relative;
-  top: 10px;
-  margin-top: 20px;
-  margin-bottom: 2%;
-}
-
 .logo {
   width: 5%;
 }
 
-.copyright {
+.copyright, .copyright-2 {
   text-align: center;
   background-color: black;
   color: white;
@@ -515,6 +502,51 @@ footer {
   padding-bottom: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 }
 
+.next {
+  position: relative;
+  width: 20%;
+  left: 200px;
+  top: 30px;
+}
+
+.desktop-footer {
+  display: none;
+}
+
+.copyright-2 {
+  display: flex;
+}
+
+.img {
+  width: 15%;
+  position: relative;
+  bottom: 15px;
+  left: 85px;
+}
+
+.stack {
+  position: relative;
+  top: 16px;
+  padding-left: 3px;
+}
+
+.stackpath {
+  width: 10%;
+  height: 10px;
+  position: relative;
+  top: 1px;
+  padding-left: 3px;
+}
+
+.made {
+  position: relative;
+  left: 220px;
+}
+
+.year {
+  position: relative;
+  left: 215px;
+}
 
 a.sm {
   background-color: rgb(73, 72, 72);
@@ -546,6 +578,20 @@ i + a {
 .funding-items {
   margin-bottom: 10%;
 }
+
+.stackpath-1 {
+  width: 20%;
+  position: relative;
+}
+
+.next-1 {
+  width: 10%;
+  position: relative;
+  top: 10px;
+  margin-top: 20px;
+  margin-bottom: 2%;
+}
+
 
 .access {
   background-color: rgb(19, 74, 255);
@@ -704,6 +750,14 @@ i + a {
   
   .latest-header {
     display: flex;
+  }
+
+  .desktop-footer {
+    display: block;
+  }
+
+  .mob-footer {
+    display: none;
   }
 }
  /* End of media query */
