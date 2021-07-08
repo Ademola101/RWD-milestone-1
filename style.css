@@ -563,6 +563,10 @@ i + a {
   .desktop-header {
     display: block;
   }
+
+  .mobile-header {
+    display: none;
+  }
   
 /* fullwidth */
 .highlight-container {
