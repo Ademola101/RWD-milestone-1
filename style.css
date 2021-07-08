@@ -417,3 +417,14 @@ i + a {
 .funding-items {
   margin-bottom: 10%;
 }
+
+.access {
+  background-color: rgb(19, 74, 255);
+  padding: 10px;
+  position: fixed;
+  bottom: 9px;
+  right: 23px;
+
+.accessibility {
+  float: right;
+}
