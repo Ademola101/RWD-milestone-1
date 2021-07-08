@@ -295,21 +295,21 @@ a.update:hover {
 
 .first-highlight-text-leading {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 100%;
 }
 
 .first-highlight-text-img {
-	width: 400px;
-	height: 100px;
+	max-width: 20%;	
 	padding: 10px;
-	position: relative;
+
 }
 
 .logo-time {
-	display: inline-flex;
-	flex-direction: row-reverse;
+	text-align: end;
 	padding: 10px;
   font-size: 16px;
-  flex: 2;
 }
 
 .first-highlight-text{
@@ -330,8 +330,9 @@ a.update:hover {
 	font-size: 16px;
 }
 .grip-highlight {
+	display: block;
+
 	padding: 10px;
-	flex: 2;
 	
 }
 .drop {
@@ -344,7 +345,6 @@ a.update:hover {
   display: block;
 	max-width: 100%;
 	height: 245px;
-  will-change: background-color;
   z-index: 2;
 }
 .second-highlight:hover{
@@ -360,7 +360,6 @@ a.update:hover {
 	max-width: 100%;
 	margin-top: 9px;
 	height: 245px;
-  will-change: background-color;
   z-index: 2;
 }
 .third-highlight:hover{
@@ -608,8 +607,6 @@ footer {
 }
 }
 
-@media only screen and (min-width: 375px) {
-
 a.sm {
   background-color: rgb(73, 72, 72);
   border-radius: 60px;
@@ -651,5 +648,4 @@ i + a {
 
 .accessibility {
   float: right;
-}
 }
