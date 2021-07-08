@@ -106,8 +106,8 @@ a.topnav:hover {
 .dropdown {
   display: none;
   position: absolute;
-  left: 10px;
   top: 30px;
+  right: -70px;
   background-color: #000;
 }
 
