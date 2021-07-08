@@ -639,20 +639,20 @@ i + a {
 
 .first-highlight-text-img {
 	width: 40%;
+	flex: 2;
 	padding: 10px;
 }
 
 .first-highlight-text-img img {
-	max-width: 100%;
+	max-width: 90%;
 }
 
 .logo-time {
-	
+	padding: 10px;
 }
 .first-highlight-text {
 	flex: 1;
-	align-self: flex-end;
-	font-size: 19px;
+	font-size: 50px;
 	margin-top: 0;
 }
 .grid-highlight {
@@ -660,7 +660,27 @@ i + a {
 	max-width: 100%;
 	max-height: 100%;
 }
-/* End */
+
+.drop {
+	display: inline-block;
+}
+
+.second-highlight {
+	max-height: 100%;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.other-highlight-sub-text {
+	max-width: 100%;
+	font-stretch:expanded;
+}
+
+.third-highlight {
+	max-width: 100%;
+}
+
+/* yinka stops */
 
 
   .news_container {
@@ -696,6 +716,8 @@ i + a {
     color: rgb(255, 68, 34);
     display: inline;
     border-right: 2px solid rgb(255, 68, 34);
+    padding-right: 10px;
+    padding-left: 10px;
   }
   
 
@@ -741,3 +763,13 @@ i + a {
   }
 }
  /* End of media query */
+
+
+ /* 
+ CSS media query for 1024px */
+  @media only screen and (min-width: 1024px) {
+  
+  }
+
+   /* 
+ CSS media query for 1024px */
