@@ -389,9 +389,8 @@ a.update:hover {
 .highlight-container {
 	padding: 14px;
 	display: flex;
-	align-items: center;
-	width: 100%;
-	height: 500px;
+	max-width: 100%;
+	height: 700px;
 	overflow: hidden;
 	font-family: Avalon,sans-serif;
   font-size: 27px;
