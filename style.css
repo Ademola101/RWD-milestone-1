@@ -144,7 +144,7 @@ a.update:hover {
   margin-bottom: 2%;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .news_container {
     display: inline;
     width: 20vw;
@@ -163,6 +163,51 @@ a.update:hover {
 
   body {
     width: 100vw;
+  }
+
+  .latest-side {
+    display: inline;
+    margin-left: 20%;
+  }
+  body .small_latest_link {
+    text-decoration: none;
+    color: rgb(255, 68, 34);
+    display: inline;
+    border-right: 2px solid rgb(255, 68, 34);
+  }
+  
+
+  .funding-container {
+    display: flex;
+  }
+
+  .funding-items {
+    width: 20vw;
+    margin-right: 2%;
+  }
+
+ body .series {
+    background-color: rgba(255, 68, 34, 0.08);
+    width: 20vw;
+    margin-top: 0;
+    position: relative;
+    bottom: 50px;
+  }
+  
+  body .ring_link{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    letter-spacing: 1.5px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+
+  }
+  
+  header {
+    display: flex;
   }
 }
 
@@ -313,3 +358,4 @@ i + a {
 .funding-items {
   margin-bottom: 10%;
 }
+
