@@ -857,6 +857,87 @@ i + a {
 .drop {
   display: inline;
 }
+body {
+  width: 100vw;
+}
+
+.latest-side {
+  display: inline;
+  margin-left: 20%;
+}
+body .small_latest_link {
+  text-decoration: none;
+  color: rgb(255, 68, 34);
+  display: inline;
+  border-right: 2px solid rgb(255, 68, 34);
+  }
+
+
+.funding-container {
+  display: grid;
+  grid-template-columns: 24vw 24vw 24vw 24vw;
+  row-gap: 10px;
+  width: 100vw;
+
+}
+
+.funding-items {
+  width: auto;
+  margin-right: 4%;
+}
+
+body .series {
+  background-color: rgba(255, 68, 34, 0.08);
+  width: auto;
+  margin-top: 0;
+  position: relative;
+  bottom: 50px;
+  right: 0;
+  margin-right: 0;
+  height: 80px;
+}
+
+.series > a {
+  margin-left: 100px;
+  top: 20px;
+}
+
+.series-link {
+  top: 20px;
+}
+
+body .ring_link{
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  font-size: large;
+  letter-spacing: 1.5px;
+}
+
+.latest-header {
+  display: flex;
+}
+
+.ringover{
+  background-color: #f42;
+  font-size: 18px !important;
+  height: 30px;
+  padding: 0%;
+  
+  
+}
+
+.ringover_img {
+  height: auto;
+  max-width: 100%;
+  left: 10px;
+  right: 0;
+  top: 10px;
+}
+
+.ring_link {
+  left: 20px;
+}
 }
 	/* yinkas end */
 
