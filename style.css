@@ -794,9 +794,8 @@ i + a {
  /* End of media query */
 
 
- /* 
- CSS media query for 1024px */
-@media only screen and (min-width: 1024px) {
+ /* CSS media for Desktop query for 1024px */
+ @media only screen and (min-width: 1024px) {
 .mobile-header {
   display: none;
 }
