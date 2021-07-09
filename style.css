@@ -812,13 +812,17 @@ i + a {
 
  /* 
  CSS media query for 1024px */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 1024px) {
 .mobile-header {
   display: none;
 }
 
 .desktop-header {
   display: block;
+}
+
+.mob-footer {
+  display: none;
 }
 
   .highlight-container {
