@@ -615,6 +615,7 @@ i + a {
   
 /* fullwidth */
 .highlight-container {
+  margin-top: 5px;
 	display: flex;
 	flex-direction: row;
 }
@@ -749,6 +750,7 @@ i + a {
   .series-link {
     top: 20px;
   }
+  
   body .ring_link{
     text-decoration: none;
     color: white;
@@ -781,6 +783,7 @@ i + a {
   .ring_link {
     left: 20px;
   }
+
   .desktop-footer {
     display: none;
   }
@@ -810,8 +813,6 @@ i + a {
 .desktop-footer {
   display: block;
 }
-
- 
 
 /* yinkas start */
 .first-highlight {
@@ -849,8 +850,8 @@ i + a {
 .drop {
   display: inline;
 }
-	/* yinkas end */
 }
-  }
+	/* yinkas end */
+
    
  /*CSS media query for 1024px */
