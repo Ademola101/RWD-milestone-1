@@ -611,15 +611,148 @@ i + a {
   float: right;
 }
 
-/* CSS Media Query */
-@media only screen and (min-width: 768px) {
+/* CSS Media Query for Tab View */
+@media (min-width: 768px) and (max-width: 1023px) {
+
 .desktop-header {
-  display: block;
+  display: none;
 }
 
 .mobile-header {
-  display: none;
+  display: block;
 }
+
+
+/* yinkas start */
+.first-highlight {
+	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/firsihighlight.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+	max-width: 100%;
+	background-position: center;
+	width: 800px;
+}
+
+.nullvaluetab {
+	flex: 5;
+}
+
+.fa.fa-share-alt {
+	display: none;
+}
+
+.first-highlight-text-leading{
+	display: none;
+}
+
+.first-highlight-text{
+	display: block;
+	font-size: 40px;
+	margin-left: 5px;
+	letter-spacing: 1px;
+}
+
+.drop {
+  display: inline;
+}
+	/* yinkas end */
+
+  .news_container {
+    display: inline;
+    width: 20vw;
+    margin-right: 2%;
+  }
+
+  a.callup {
+    font-size: 65%;
+  }
+
+  .news_image {
+    display: inline;
+  }
+
+  .container {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+
+  body {
+    width: 100vw;
+  }
+
+  .latest-side {
+    display: inline;
+    margin-left: 20%;
+  }
+  body .small_latest_link {
+    text-decoration: none;
+    color: rgb(255, 68, 34);
+    display: inline;
+    border-right: 2px solid rgb(255, 68, 34);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+
+  .funding-container {
+    display: flex;
+  }
+
+  .funding-items {
+    width: 20vw;
+    margin-right: 2%;
+  }
+
+ body .series {
+    background-color: rgba(255, 68, 34, 0.08);
+    width: 20vw;
+    margin-top: 0;
+    position: relative;
+    bottom: 50px;
+  }
+  
+  body .ring_link{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    letter-spacing: 1.5px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+
+  }
+  
+  .latest-header {
+    display: flex;
+  }
+
+  .desktop-footer {
+    display: block;
+  }
+
+  .mob-footer {
+    display: none;
+  }
+}
+ /* End of media query */
+
+
+ /* CSS media for Desktop query for 1024px */
+@media only screen and (min-width: 1024px) {
+.highlight-container {
+	max-width: 100%;
+}
+
+.mobile-header {
+	display: none;
+}
+
+.desktop-header {
+	display: block;
+}
+
 
 /* fullwidth */
 .highlight-container {
@@ -709,128 +842,5 @@ i + a {
 
 /* yinka stops */
 
-
-  .news_container {
-    display: inline;
-    width: 20vw;
-    margin-right: 2%;
-  }
-
-  a.callup {
-    font-size: 65%;
-  }
-
-  .news_image {
-    display: inline;
-  }
-
-  .container {
-    display: flex;
-    width: 100vw;
-    flex-wrap: wrap;
-  }
-
-  body {
-    width: 100vw;
-  }
-
-  .latest-side {
-    display: inline;
-    margin-left: 20%;
-  }
-  body .small_latest_link {
-    text-decoration: none;
-    color: rgb(255, 68, 34);
-    display: inline;
-    border-right: 2px solid rgb(255, 68, 34);
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-  
-
-  .funding-container {
-    display: flex;
-  }
-
-  .funding-items {
-    width: 20vw;
-    margin-right: 2%;
-  }
-
- body .series {
-    background-color: rgba(255, 68, 34, 0.08);
-    width: 20vw;
-    margin-top: 0;
-    position: relative;
-    bottom: 50px;
-  }
-  
-  body .ring_link{
-    text-decoration: none;
-    color: white;
-    font-weight: 900;
-    font-size: large;
-    letter-spacing: 1.5px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
-
-  }
-  
-  .latest-header {
-    display: flex;
-  }
-
-  .desktop-footer {
-    display: block;
-  }
-
-  .mob-footer {
-    display: none;
-  }
-}
- /* End of media query */
-
-
- /* 
- CSS media query for 1024px */
-@media (min-width: 768px) and (max-width: 1023px) {
-.highlight-container {
-	max-width: 100%;
-}
-
-/* yinkas start */
-.first-highlight {
-	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/firsihighlight.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-	max-width: 100%;
-	background-position: center;
-	width: 800px;
-}
-
-.nullvaluetab {
-	flex: 5;
-}
-
-.fa.fa-share-alt {
-	display: none;
-}
-
-.first-highlight-text-leading{
-	display: none;
-}
-
-.first-highlight-text{
-	display: block;
-	font-size: 40px;
-	margin-left: 5px;
-	letter-spacing: 1px;
-}
-
-.drop {
-  display: inline;
-}
-	/* yinkas end */
 }
 /* CSS media query for 1024px */
