@@ -629,7 +629,6 @@ i + a {
 	max-width: 100%;
 	flex-direction: column;
 }
-
 .first-highlight-text-leading {
 	display: flex;
 	flex-wrap: wrap;
