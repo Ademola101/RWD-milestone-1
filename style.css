@@ -621,6 +621,18 @@ i + a {
   .mobile-header {
     display: none;
   }
+
+  .next-1 {
+    width: 6%;
+    position: relative;
+    top: 5px;
+  }
+  
+  .stackpath-1 {
+    width: 10%;
+    position: relative;
+    top: 2px;
+  }
   
 /* fullwidth */
 .highlight-container {
