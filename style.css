@@ -512,7 +512,7 @@ footer {
 .next {
   position: relative;
   width: 20%;
-  left: 200px;
+  left: 210px;
   top: 30px;
 }
 
@@ -535,6 +535,7 @@ footer {
   position: relative;
   top: 21px;
   padding-left: 13px;
+  left: 180px;
 }
 
 .stackpath {
@@ -547,13 +548,13 @@ footer {
 
 .made {
   position: relative;
-  left: 220px;
+  left: 380px;
   top: 5px;
 }
 
 .year {
   position: relative;
-  left: 215px;
+  left: 360px;
   top: 5px;
 }
 
