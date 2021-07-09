@@ -60,8 +60,8 @@ a.callup-1 {
 }
 
 .num {
-  flex: 5;
   background-color: #000;
+  font-size: 90%;
 }
 
 .up {
@@ -131,7 +131,8 @@ a.topnav:hover {
 }
 
 .edge {
-  margin-left: 460px;
+  position: relative;
+  left: 50px;
 }
 
 .dropdown ul li {
@@ -505,7 +506,8 @@ footer {
   background-color: black;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+  padding-bottom: 10px; 
+  font-size: 12px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 }
 
 .next {
@@ -547,11 +549,13 @@ footer {
 .made {
   position: relative;
   left: 220px;
+  top: 5px;
 }
 
 .year {
   position: relative;
   left: 215px;
+  top: 5px;
 }
 
 a.sm {
@@ -588,14 +592,20 @@ i + a {
 .stackpath-1 {
   width: 20%;
   position: relative;
+  top: 1px;
 }
 
 .next-1 {
   width: 10%;
   position: relative;
+  top: 3px;
+}
+
+.wrapp {
+  width: 5%;
+  position: relative;
   top: 10px;
-  margin-top: 20px;
-  margin-bottom: 2%;
+  padding-bottom: 3px;
 }
 
 
@@ -622,6 +632,29 @@ i + a {
   display: block;
 }
 
+.mob-footer {
+  display: block;
+}
+
+.next-1 {
+  width: 6%;
+  position: relative;
+  top: 5px;
+}
+
+.stackpath-1 {
+  width: 10%;
+  position: relative;
+  top: 2px;
+}
+
+/* fullwidth */
+.highlight-container {
+	margin-top: 5px;
+	display: flex;
+	flex-direction: row;
+	height: 600px;
+}
 
 /* yinkas start */
 .first-highlight {
@@ -727,21 +760,32 @@ i + a {
   .latest-header {
     display: flex;
   }
-
-  .desktop-footer {
-    display: block;
-  }
-
-  .mob-footer {
-    display: none;
-  }
 }
  /* End of media query */
 
 
+<<<<<<< HEAD
  /* CSS media for Desktop query for 1024px */
 @media only screen and (min-width: 1024px) {
 .highlight-container {
+=======
+ /* 
+ CSS media query for 1024px */
+@media (min-width: 1024px) {
+.mobile-header {
+  display: none;
+}
+
+.desktop-header {
+  display: block;
+}
+
+.mob-footer {
+  display: none;
+}
+
+  .highlight-container {
+>>>>>>> 7f525482776f1af044b63e7aa3626be39cc3df2e
 	max-width: 100%;
 }
 
@@ -844,3 +888,4 @@ i + a {
 
 }
 /* CSS media query for 1024px */
+
