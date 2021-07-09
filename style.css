@@ -1,8 +1,17 @@
-html {
-  max-width: 100%;
-  overflow-x: hidden;
+html{
+	box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
 }
 
 .box-1 {
@@ -612,8 +621,8 @@ i + a {
   float: right;
 }
 
-/* CSS Media Query */
-@media (min-width: 768px) and (max-width: 1023px){
+/* CSS Media Query  */
+@media (min-width: 768px) and (max-width: 1023px) {
   .desktop-header {
     display: block;
   }
