@@ -825,9 +825,11 @@ i + a {
   display: none;
 }
 
-  .highlight-container {
-	max-width: 100%;
+.desktop-footer {
+  display: block;
 }
+
+ 
 
 /* yinkas start */
 .first-highlight {
@@ -856,6 +858,10 @@ i + a {
 	font-size: 40px;
 	margin-left: 5px;
 	letter-spacing: 1px;
+}
+
+ .highlight-container {
+	max-width: 100%;
 }
 
 .drop {
