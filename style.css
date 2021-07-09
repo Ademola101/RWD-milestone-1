@@ -60,8 +60,8 @@ a.callup-1 {
 }
 
 .num {
-  flex: 5;
   background-color: #000;
+  font-size: 90%;
 }
 
 .up {
@@ -131,12 +131,14 @@ a.topnav:hover {
 }
 
 .edge {
-  margin-left: 460px;
+  position: relative;
+  left: 50px;
 }
 
 .dropdown ul li {
   width: 150px;
   padding: 3px;
+
 }
 
 a.drp {
@@ -539,11 +541,13 @@ footer {
 .made {
   position: relative;
   left: 220px;
+  top: 5px;
 }
 
 .year {
   position: relative;
   left: 215px;
+  top: 5px;
 }
 
 a.sm {
@@ -580,16 +584,21 @@ i + a {
 .stackpath-1 {
   width: 20%;
   position: relative;
+  top: 1px;
 }
 
 .next-1 {
   width: 10%;
   position: relative;
-  top: 10px;
-  margin-top: 20px;
-  margin-bottom: 2%;
+  top: 3px;
 }
 
+.wrapp {
+  width: 5%;
+  position: relative;
+  top: 10px;
+  padding-bottom: 3px;
+}
 
 .access {
   background-color: rgb(19, 74, 255);
@@ -604,13 +613,13 @@ i + a {
 }
 
 /* CSS Media Query */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px){
   .desktop-header {
-    display: none;
+    display: block;
   }
 
   .mobile-header {
-    display: block;
+    display: none;
   }
   
 /* fullwidth */
