@@ -632,7 +632,19 @@ i + a {
 }
 
 .mob-footer {
-  display: none;
+  display: block;
+}
+
+.next-1 {
+  width: 6%;
+  position: relative;
+  top: 5px;
+}
+
+.stackpath-1 {
+  width: 10%;
+  position: relative;
+  top: 2px;
 }
 
 /* fullwidth */
@@ -807,6 +819,10 @@ i + a {
 
 .desktop-header {
   display: block;
+}
+
+.mob-footer {
+  display: none;
 }
 
   .highlight-container {
