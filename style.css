@@ -755,11 +755,11 @@ i + a {
   }
 
   .desktop-footer {
-    display: block;
+    display: none;
   }
 
   .mob-footer {
-    display: none;
+    display: block;
   }
 }
  /* End of media query */
@@ -773,6 +773,14 @@ i + a {
 }
 
 .desktop-header {
+  display: block;
+}
+
+.mob-footer {
+  display: none;
+}
+
+.desktop-footer {
   display: block;
 }
   }
