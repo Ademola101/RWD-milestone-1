@@ -12,6 +12,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100vw;
+  
 }
 
 .box-1 {
@@ -387,14 +388,14 @@ a.update:hover {
 }
 
 main {
-  margin-left: 2%;
   margin-bottom: 200px;
+  width: 100vw;
 }
 
 .space {
-  margin: auto;
+  margin: 0;
   height: 250px;
-  width: 300px;
+  width: 100%;
 }
 
 .latest_link {
@@ -430,18 +431,19 @@ main {
   text-decoration: none;
   color: white;
   position: relative;
-  bottom: 35px;
+  bottom: 50px;
   right: 60px;
   font-weight: 900;
   font-size: large;
   letter-spacing: 1.5px;
+
 }
 
 .series {
   background-color: rgba(255, 68, 34, 0.08);
   width: 100vw;
   position: relative;
-  bottom: 25px;
+  bottom: 50px;
   height: 60px;
   right: 85px;
 }
@@ -774,6 +776,7 @@ i + a {
     font-weight: 900;
     font-size: large;
     letter-spacing: 1.5px;
+    left: 20px;
   }
   
   .latest-header {
@@ -797,10 +800,6 @@ i + a {
     top: 10px;
   }
 
-  .ring_link {
-    left: 20px;
-  }
-
   .desktop-footer {
     display: none;
   }
@@ -817,6 +816,7 @@ i + a {
 .mobile-header {
   display: none;
 }
+
 
 .desktop-header {
   display: block;
