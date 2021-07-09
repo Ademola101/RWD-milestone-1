@@ -1,7 +1,5 @@
 html{
 	box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 *, *:before, *:after {
@@ -48,6 +46,7 @@ a.callup-1 {
 }
 
 .box {
+	padding-right: 0;
   font-size: 30px;
   text-align: center;
   flex: 1;
@@ -387,7 +386,6 @@ a.update:hover {
 }
 
 main {
-  margin-left: 2%;
   margin-bottom: 200px;
 }
 
@@ -692,10 +690,11 @@ i + a {
 	font-stretch:expanded;
 }
 
-.third-highlight {
-	max-width: 100%;
-}
 
+.third-highlight {
+	max-height: 100%;
+	bottom: 0;
+}
 /* yinka stops */
 
 
