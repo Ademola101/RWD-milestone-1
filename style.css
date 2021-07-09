@@ -69,7 +69,8 @@ a.callup-1 {
 
 .num {
   background-color: #000;
-  font-size: 90%;
+  font-size: 80%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .up {
@@ -512,7 +513,7 @@ footer {
 .next {
   position: relative;
   width: 20%;
-  left: 210px;
+  left: 200px;
   top: 30px;
 }
 
@@ -535,7 +536,6 @@ footer {
   position: relative;
   top: 21px;
   padding-left: 13px;
-  left: 180px;
 }
 
 .stackpath {
@@ -548,13 +548,13 @@ footer {
 
 .made {
   position: relative;
-  left: 380px;
+  left: 220px;
   top: 5px;
 }
 
 .year {
   position: relative;
-  left: 360px;
+  left: 215px;
   top: 5px;
 }
 
@@ -840,6 +840,9 @@ i + a {
   display: block;
 }
 
+.edge {
+  position: relative;
+  left: 43%;
 }
 
 
