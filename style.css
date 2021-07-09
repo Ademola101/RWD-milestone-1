@@ -60,8 +60,8 @@ a.callup-1 {
 }
 
 .num {
+  flex: 5;
   background-color: #000;
-  font-size: 90%;
 }
 
 .up {
@@ -131,8 +131,7 @@ a.topnav:hover {
 }
 
 .edge {
-  position: relative;
-  left: 50px;
+  margin-left: 460px;
 }
 
 .dropdown ul li {
@@ -506,8 +505,7 @@ footer {
   background-color: black;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 10px; 
-  font-size: 12px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+  padding-bottom: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 }
 
 .next {
@@ -549,13 +547,11 @@ footer {
 .made {
   position: relative;
   left: 220px;
-  top: 5px;
 }
 
 .year {
   position: relative;
   left: 215px;
-  top: 5px;
 }
 
 a.sm {
@@ -592,20 +588,14 @@ i + a {
 .stackpath-1 {
   width: 20%;
   position: relative;
-  top: 1px;
 }
 
 .next-1 {
   width: 10%;
   position: relative;
-  top: 3px;
-}
-
-.wrapp {
-  width: 5%;
-  position: relative;
   top: 10px;
-  padding-bottom: 3px;
+  margin-top: 20px;
+  margin-bottom: 2%;
 }
 
 
@@ -621,9 +611,9 @@ i + a {
   float: right;
 }
 
-/* CSS Media Query for Tab View */
-@media (min-width: 768px) and (max-width: 1023px) {
+/* CSS Media Query */
 
+@media only screen and (min-width: 768px) {
 .desktop-header {
   display: none;
 }
@@ -631,172 +621,6 @@ i + a {
 .mobile-header {
   display: block;
 }
-
-.mob-footer {
-  display: block;
-}
-
-.next-1 {
-  width: 6%;
-  position: relative;
-  top: 5px;
-}
-
-.stackpath-1 {
-  width: 10%;
-  position: relative;
-  top: 2px;
-}
-
-/* fullwidth */
-.highlight-container {
-	margin-top: 5px;
-	display: flex;
-	flex-direction: row;
-	height: 600px;
-}
-
-/* yinkas start */
-.first-highlight {
-	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/firsihighlight.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-	max-width: 100%;
-	background-position: center;
-	width: 800px;
-}
-
-.nullvaluetab {
-	flex: 5;
-}
-
-.fa.fa-share-alt {
-	display: none;
-}
-
-.first-highlight-text-leading{
-	display: none;
-}
-
-.first-highlight-text{
-	display: block;
-	font-size: 40px;
-	margin-left: 5px;
-	letter-spacing: 1px;
-}
-
-.drop {
-  display: inline;
-}
-	/* yinkas end */
-
-  .news_container {
-    display: inline;
-    width: 20vw;
-    margin-right: 2%;
-  }
-
-  a.callup {
-    font-size: 65%;
-  }
-
-  .news_image {
-    display: inline;
-  }
-
-  .container {
-    display: flex;
-    width: 100vw;
-    flex-wrap: wrap;
-  }
-
-  body {
-    width: 100vw;
-  }
-
-  .latest-side {
-    display: inline;
-    margin-left: 20%;
-  }
-  body .small_latest_link {
-    text-decoration: none;
-    color: rgb(255, 68, 34);
-    display: inline;
-    border-right: 2px solid rgb(255, 68, 34);
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-  
-
-  .funding-container {
-    display: flex;
-  }
-
-  .funding-items {
-    width: 20vw;
-    margin-right: 2%;
-  }
-
- body .series {
-    background-color: rgba(255, 68, 34, 0.08);
-    width: 20vw;
-    margin-top: 0;
-    position: relative;
-    bottom: 50px;
-  }
-  
-  body .ring_link{
-    text-decoration: none;
-    color: white;
-    font-weight: 900;
-    font-size: large;
-    letter-spacing: 1.5px;
-    position: relative;
-    left: 20px;
-    bottom: 60px;
-
-  }
-  
-  .latest-header {
-    display: flex;
-  }
-}
- /* End of media query */
-
-
-<<<<<<< HEAD
- /* CSS media for Desktop query for 1024px */
-@media only screen and (min-width: 1024px) {
-.highlight-container {
-=======
- /* 
- CSS media query for 1024px */
-@media (min-width: 1024px) {
-.mobile-header {
-  display: none;
-}
-
-.desktop-header {
-  display: block;
-}
-
-.mob-footer {
-  display: none;
-}
-
-  .highlight-container {
->>>>>>> 7f525482776f1af044b63e7aa3626be39cc3df2e
-	max-width: 100%;
-}
-
-.mobile-header {
-	display: none;
-}
-
-.desktop-header {
-	display: block;
-}
-
 
 /* fullwidth */
 .highlight-container {
@@ -886,6 +710,136 @@ i + a {
 
 /* yinka stops */
 
+
+  .news_container {
+    display: inline;
+    width: 20vw;
+    margin-right: 2%;
+  }
+
+  a.callup {
+    font-size: 65%;
+  }
+
+  .news_image {
+    display: inline;
+  }
+
+  .container {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+
+  body {
+    width: 100vw;
+  }
+
+  .latest-side {
+    display: inline;
+    margin-left: 20%;
+  }
+  body .small_latest_link {
+    text-decoration: none;
+    color: rgb(255, 68, 34);
+    display: inline;
+    border-right: 2px solid rgb(255, 68, 34);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+
+  .funding-container {
+    display: flex;
+  }
+
+  .funding-items {
+    width: 20vw;
+    margin-right: 2%;
+  }
+
+ body .series {
+    background-color: rgba(255, 68, 34, 0.08);
+    width: 20vw;
+    margin-top: 0;
+    position: relative;
+    bottom: 50px;
+  }
+  
+  body .ring_link{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    letter-spacing: 1.5px;
+    position: relative;
+    left: 20px;
+    bottom: 60px;
+
+  }
+  
+  .latest-header {
+    display: flex;
+  }
+
+  .desktop-footer {
+    display: block;
+  }
+
+  .mob-footer {
+    display: none;
+  }
+}
+ /* End of media query */
+
+
+ /* CSS media for Desktop query for 1024px */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.highlight-container {
+	max-width: 100%;
+}
+
+.mobile-header {
+	display: none;
+}
+
+.desktop-header {
+	display: block;
+}
+
+/* yinkas start */
+.first-highlight {
+	background: linear-gradient( rgba(0,0,0,0.25), rgba(0,0,0,9.25)), url("images/firsihighlight.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+	max-width: 100%;
+	background-position: center;
+	width: 800px;
+}
+
+.nullvaluetab {
+	flex: 5;
+}
+
+.fa.fa-share-alt {
+	display: none;
+}
+
+.first-highlight-text-leading{
+	display: none;
+}
+
+.first-highlight-text{
+	display: block;
+	font-size: 40px;
+	margin-left: 5px;
+	letter-spacing: 1px;
+}
+
+.drop {
+  display: inline;
+}
+	/* yinkas end */
 }
 /* CSS media query for 1024px */
-
