@@ -608,11 +608,11 @@ i + a {
 /* CSS Media Query */
 @media only screen and (min-width: 768px) {
   .desktop-header {
-    display: block;
+    display: none;
   }
 
   .mobile-header {
-    display: none;
+    display: block;
   }
   
 /* fullwidth */
@@ -767,9 +767,14 @@ i + a {
 
  /* 
  CSS media query for 1024px */
-  @media only screen and (min-width: 1024px) {
-  
-  }
+@media only screen and (min-width: 1024px) {
+.mobile-header {
+  display: none;
+}
 
-   /* 
- CSS media query for 1024px */
+.desktop-header {
+  display: block;
+}
+  }
+   
+ /*CSS media query for 1024px */
