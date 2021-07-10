@@ -70,7 +70,8 @@ a.callup-1 {
 
 .num {
   background-color: #000;
-  font-size: 90%;
+  font-size: 80%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .up {
@@ -528,7 +529,7 @@ footer {
 }
 
 .img {
-  width: 15%;
+  width: 1%;
   position: relative;
   bottom: 15px;
   left: 85px;
@@ -536,12 +537,12 @@ footer {
 
 .stack {
   position: relative;
-  top: 16px;
-  padding-left: 3px;
+  top: 21px;
+  padding-left: 13px;
 }
 
 .stackpath {
-  width: 10%;
+  width: 13%;
   height: 10px;
   position: relative;
   top: 1px;
@@ -611,11 +612,13 @@ i + a {
 }
 
 .access {
-  background-color: rgb(19, 74, 255);
+  width: auto;
+  height: 6%;
   padding: 10px;
   position: fixed;
-  bottom: 9px;
+  bottom: 11px;
   right: 23px;
+  background-color: rgb(74, 74, 252);
 }
 
 .accessibility {
@@ -630,6 +633,18 @@ i + a {
 
   .mobile-header {
     display: none;
+  }
+
+  .next-1 {
+    width: 5%;
+    position: relative;
+    top: 5px;
+  }
+  
+  .stackpath-1 {
+    width: 10%;
+    position: relative;
+    padding-bottom: 1px;
   }
   
 /* fullwidth */
@@ -790,8 +805,6 @@ i + a {
     font-size: 18px !important;
     height: 30px;
     padding: 0%;
-    
-    
   }
 
   .ringover_img {
@@ -831,6 +844,12 @@ i + a {
 .desktop-footer {
   display: block;
 }
+
+.edge {
+  position: relative;
+  left: 43%;
+}
+
 
 /* yinkas start */
 .first-highlight {
@@ -943,8 +962,11 @@ body .ring_link{
   font-size: 18px !important;
   height: 30px;
   padding: 0%;
-  
-  
+}
+
+.access {
+  border-radius: 60px;
+  height: 8%;
 }
 
 .ringover_img {
