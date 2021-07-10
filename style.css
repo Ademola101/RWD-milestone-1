@@ -415,6 +415,14 @@ main {
   margin-bottom: 20px;
 }
 
+.latest_link:hover {
+  text-decoration: none;
+  color: rgb(12, 12, 11);
+  font-size: 200%;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
 .small_latest_link {
   text-decoration: none;
   color: rgb(255, 68, 34);
@@ -1022,7 +1030,7 @@ a.sm {
     bottom: 35px;
   }
 
-  .latest_link a:hover {
+  .latest_link:hover {
     text-decoration: none;
     color: rgb(12, 12, 11);
     font-size: 200%;
