@@ -578,6 +578,11 @@ a.sm {
   margin-bottom: 2%;
 }
 
+.tel-text {
+  text-decoration: none;
+  color: rgb(128, 119, 119);
+}
+
 .lighter-red {
   background-color: #fffaf8;
   position: relative;
