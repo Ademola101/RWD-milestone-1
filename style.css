@@ -575,6 +575,9 @@ a.sm {
 
 .lighter-red {
   background-color:#fffaf8 ;
+  position: relative;
+  bottom: 20px;
+  font-size: 0.8em;
 }
 
 i + a {
@@ -594,7 +597,7 @@ i + a {
 }
 
 .funding-items {
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 }
 
 .stackpath-1 {
@@ -719,6 +722,17 @@ i + a {
 	bottom: 0;
 }
 /* yinka stops */
+.lighter-red {
+  background-color:#fffaf8 ;
+  position: relative;
+  bottom: 20px;
+  font-size: 0.7em;
+}
+
+.none {
+  display: none;
+}
+
 .latest-add-container {
   margin: 50px;
 }
@@ -749,7 +763,7 @@ i + a {
 
   .funding-container {
     display: grid;
-    grid-template-columns: 24vw 24vw 24vw 24vw;
+    grid-template-columns: 33vw 33vw 33vw ;
     row-gap: 10px;
     width: 100vw;
 
@@ -785,7 +799,7 @@ i + a {
     text-decoration: none;
     color: white;
     font-weight: 900;
-    font-size: large;
+    font-size: 1.3vw;
     letter-spacing: 1.5px;
     left: 20px;
     bottom: 35px;
@@ -905,6 +919,13 @@ body .small_latest_link {
   row-gap: 10px;
   width: 100vw;
 
+}
+
+.lighter-red {
+  background-color:#fffaf8 ;
+  position: relative;
+  bottom: 20px;
+  font-size: 0.7em;
 }
 
 .funding-items {
