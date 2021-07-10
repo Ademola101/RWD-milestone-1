@@ -609,11 +609,13 @@ i + a {
 }
 
 .access {
-  background-color: rgb(19, 74, 255);
+  width: auto;
+  height: 4%;
   padding: 10px;
   position: fixed;
-  bottom: 9px;
+  bottom: 11px;
   right: 23px;
+  background-color: rgb(74, 74, 252);
 }
 
 .accessibility {
@@ -948,8 +950,11 @@ body .ring_link{
   font-size: 18px !important;
   height: 30px;
   padding: 0%;
-  
-  
+}
+
+.access {
+  border-radius: 60px;
+  height: 8%;
 }
 
 .ringover_img {
