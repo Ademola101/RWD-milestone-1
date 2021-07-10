@@ -6,10 +6,6 @@ html{
 	box-sizing: inherit;
 }
 
-.latest-add-container {
-  margin: 30px;
-}
-
 body {
 	margin: 0;
 	padding: 0;
@@ -422,6 +418,7 @@ main {
   font-size: 18px !important;
   padding: 10.67px 16px 10.67px 84px;
   height: 30px;
+  font-family:  Helvetica, Arial, sans-serif;
 }
 
 .ringover_img {
@@ -450,7 +447,7 @@ main {
   bottom: 50px;
   height: 60px;
   right: 85px;
-}
+  }
 
 .series > a {
   text-decoration: none;
@@ -574,6 +571,10 @@ a.sm {
 .tel {
   margin-top: 70px;
   margin-bottom: 2%;
+}
+
+.lighter-red {
+  background-color:#fffaf8 ;
 }
 
 i + a {
@@ -718,7 +719,9 @@ i + a {
 	bottom: 0;
 }
 /* yinka stops */
-
+.latest-add-container {
+  margin: 50px;
+}
 
   .news_container {
     display: inline;
@@ -760,21 +763,22 @@ i + a {
  body .series {
     background-color: rgba(255, 68, 34, 0.08);
     width: auto;
-    margin-top: 0;
+    margin-top: 14px;
     position: relative;
     bottom: 50px;
     right: 0;
     margin-right: 0;
-    height: 80px;
+    height: 60px;
   }
 
   .series > a {
     margin-left: 100px;
-    top: 20px;
+    top: 5px;
   }
   
   .series-link {
-    top: 20px;
+    top: 2px;
+    margin-left: 100px;
   }
   
   body .ring_link{
@@ -891,6 +895,9 @@ body .small_latest_link {
   border-right: 2px solid rgb(255, 68, 34);
   }
 
+  .latest-add-container {
+    margin: 50px;
+  }
 
 .funding-container {
   display: grid;
@@ -908,21 +915,22 @@ body .small_latest_link {
 body .series {
   background-color: rgba(255, 68, 34, 0.08);
   width: auto;
-  margin-top: 0;
+  margin-top: 14px;
   position: relative;
   bottom: 50px;
   right: 0;
   margin-right: 0;
-  height: 80px;
+  height: 60px;
 }
 
 .series > a {
   margin-left: 100px;
-  top: 20px;
+  top: 5px;
 }
 
 .series-link {
-  top: 20px;
+  top: 2px;
+  margin-left: 100px;
 }
 
 body .ring_link{
