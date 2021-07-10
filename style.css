@@ -777,6 +777,8 @@ i + a {
     font-size: large;
     letter-spacing: 1.5px;
     left: 20px;
+    bottom: 35px;
+    
   }
   
   .latest-header {
@@ -921,7 +923,16 @@ body .ring_link{
   font-weight: 900;
   font-size: large;
   letter-spacing: 1.5px;
+  bottom: 35px;
 }
+.latest_link a:hover {
+  text-decoration: none;
+  color: rgb(12, 12, 11);
+  font-size: 200%;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
 
 .latest-header {
   display: flex;
