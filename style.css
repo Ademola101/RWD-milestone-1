@@ -413,6 +413,14 @@ main {
   margin-top: 2%;
 }
 
+.small_latest_link-s {
+  text-decoration: none;
+  color: rgb(255, 68, 34);
+  display: block;
+  margin-top: 2%;
+}
+
+
 .ringover {
   background-color: #f42;
   font-size: 18px !important;
@@ -461,7 +469,7 @@ main {
 
 .series-link {
   text-decoration: none;
-  font-family: Shentox, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: silver;
   margin-left: 90px;
   position: relative;
@@ -577,7 +585,7 @@ a.sm {
   background-color:#fffaf8 ;
   position: relative;
   bottom: 20px;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 i + a {
@@ -726,7 +734,7 @@ i + a {
   background-color:#fffaf8 ;
   position: relative;
   bottom: 20px;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .none {
@@ -900,15 +908,37 @@ body {
 
 .latest-side {
   display: inline;
-  margin-left: 20%;
+  margin-left: 0;
+  width: 400px;
 }
+
+.latest_link {
+  text-decoration: none;
+  color: rgb(255, 68, 34);
+  font-size: 200%;
+  font-weight: 900;
+  margin-bottom: 20px;
+  width: 60vw;
+}
+
+
 body .small_latest_link {
   text-decoration: none;
   color: rgb(255, 68, 34);
   display: inline;
   border-right: 2px solid rgb(255, 68, 34);
+  margin-right: 4%;
+  padding-right: 4%;
   }
 
+  body .small_latest_link-s {
+    text-decoration: none;
+    color: rgb(255, 68, 34);
+    display: inline;
+    margin-right: 4%;
+    padding-right: 4%;
+    }
+  
   .latest-add-container {
     margin: 50px;
   }
@@ -925,7 +955,7 @@ body .small_latest_link {
   background-color:#fffaf8 ;
   position: relative;
   bottom: 20px;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 .funding-items {
