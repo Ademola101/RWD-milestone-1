@@ -403,7 +403,7 @@ main {
 
 .space {
   margin: 0;
-  height: 250px;
+  height: 50px;
   width: 100%;
 }
 
@@ -435,6 +435,10 @@ main {
   color: rgb(255, 68, 34);
   display: block;
   margin-top: 2%;
+}
+
+.small_latest_link-s:hover {
+  color: rgb(7, 7, 7);
 }
 
 .ringover {
@@ -722,6 +726,10 @@ a.sm {
     font-size: 0.8em;
   }
 
+  .small_latest_link:hover {
+    color: rgb(24, 23, 23);
+  }  
+
   .none {
     display: none;
   }
@@ -959,6 +967,15 @@ a.sm {
   body .small_latest_link {
     text-decoration: none;
     color: rgb(255, 68, 34);
+    display: inline;
+    border-right: 2px solid rgb(255, 68, 34);
+    margin-right: 4%;
+    padding-right: 4%;
+  }
+
+  body .small_latest_link:hover {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
     display: inline;
     border-right: 2px solid rgb(255, 68, 34);
     margin-right: 4%;
