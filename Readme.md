@@ -24,6 +24,12 @@ HTML <br> CSS
 - Twitter: [@shadrxcc](https://twitter.com/shadrxcc)
 - LinkedIn: [Shadrach Akaade](https://www.linkedin.com/in/shadrach-akaade-24a375189/)
 
+👤 **Author 3**
+
+- GitHub: [@YinkTech](https://github.com/yinktech)
+- Twitter: [@YinkTech](https://twitter.com/yinktech)
+- LinkedIn: [Ayeni Olayinka](https://www.linkedin.com/in/ayeni-olayinka-726181134/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
