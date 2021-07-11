@@ -3,7 +3,7 @@
 *::before,
 *::after {
   box-sizing: inherit;
-	margin: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .box-1 {
@@ -242,7 +242,7 @@ a.update:hover {
   font-weight: bolder;
 }
 
-/* fullwidth */
+/*  fullwidth  */
 
 .highlight-container {
   display: flex;
@@ -360,7 +360,7 @@ a.update:hover {
   margin-left: 5px;
 }
 
-/* break */
+/*  break  */
 
 .news_container {
   display: flex;
@@ -652,7 +652,7 @@ a.sm {
   float: right;
 }
 
-/* CSS Media Query*/
+/*  CSS  Media  Query*/
 @media (min-width: 768px) and (max-width: 1023px) {
 
 .mobile-header {
@@ -671,18 +671,18 @@ a.sm {
   padding-bottom: 1px;
 }
 
-  /* yinkas start */
+  /*  yinkas  start  */
 .highlight-container {
 	display: flex;
 	flex-direction: row;
 }
 
 .first-highlight {
-	flex: 3;
-	background-size: cover;
+  flex: 3;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 .first-highlight-text-leading {
@@ -692,18 +692,18 @@ a.sm {
 .first-highlight-text {
   display: block;
   font-size: 35px;
-	margin-top: 150px;
+  margin-top: 150px;
   margin-left: 5px;
   letter-spacing: 1px;
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .first-highlight-sub-text {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .fa.fa-share-alt.icon {
-	display: none;
+  display: none;
 }
 
 .grip-highlight {
@@ -711,13 +711,13 @@ a.sm {
 }
 
 .second-highlight{
-	margin-top: 0;
+  margin-top: 0;
 }
 .third-highlight {
   bottom: 0;
 }
 
-/* yinka stops */
+/*  yinka  stops  */
 
 .lighter-red {
   background-color: #fffaf8;
@@ -834,9 +834,9 @@ body .series {
 }
 }
 
-/* End of media query */
+/*  End  of  media  query  */
 
-/* CSS media for Desktop query for 1024px */
+/*  CSS  media  for  Desktop  query  for  1024px  */
 
 @media only screen and (min-width: 1024px) {
 .mobile-header {
@@ -860,14 +860,14 @@ body .series {
   left: 43%;
 }
 
-/* yinkas start */
+/*  yinkas  start  */
 
 .highlight-container {
   display: flex;
-	flex-direction: row;
+  flex-direction: row;
   padding: 3px;
-	height: 430px;
-	overflow: hidden;
+  height: 430px;
+  overflow: hidden;
 }
 
 .first-highlight {
@@ -875,9 +875,9 @@ body .series {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-	margin-right: 7px;
-	height: 490px;
-	flex: 4;
+  margin-right: 7px;
+  height: 490px;
+  flex: 4;
 }
 
 .first-highlight-text-leading {
@@ -892,25 +892,23 @@ body .series {
 
 .logo-time {
   padding: 10px;
-	margin-left: 15%;
+  margin-left: 15%;
 }
 
 .first-highlight-text {
   font-size: 50px;
-	display: block;
-	width: 90%;
+  display: block;
+  width: 90%;
 }
 
 .grip-highlight {
-	flex: 2;
+  flex: 2;
 }
 
 .second-highlight {
   margin-top: 0;
-	height: 210px;
+  height: 210px;
 }
-
-
 
 .other-highlight-group {
   padding-top: 50px;
@@ -918,22 +916,22 @@ body .series {
 
 .other-highlight-text {
   font-size: 25px;
-	text-justify: newspaper;
+  text-justify: newspaper;
 }
 
 .other-highlight-sub-text {
   display: block;
   max-width: 100%;
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .third-highlight {
-	margin-top: 4px;
-	height: 210px;
-	background-position: center;
+  margin-top: 4px;
+  height: 210px;
+  background-position: center;
 }
 
-/* yinka stops */
+/*  yinka  stops  */
 
 body {
   width: 100vw;
@@ -963,7 +961,7 @@ body {
   padding-right: 4%;
 }
 
-  body .small_latest_link:hover {
+body .small_latest_link:hover {
   text-decoration: none;
   color: rgb(12, 12, 12);
   display: inline;
@@ -972,7 +970,7 @@ body {
   padding-right: 4%;
 }
 
-  body .small_latest_link-s {
+body .small_latest_link-s {
   text-decoration: none;
   color: rgb(255, 68, 34);
   display: inline;
@@ -1070,4 +1068,4 @@ body {
 }
 }
 
-/* CSS media query for 1024px */
+/*  CSS  media  query  for  1024px  */
