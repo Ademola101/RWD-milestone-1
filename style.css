@@ -650,14 +650,14 @@ a.sm {
 */
 @media (min-width: 768px) and (max-width: 1023px) {
   .mobile-header {
-    display: none;
-  }
+  display: none;
+}
 
-  .next-1 {
-    width: 5%;
-    position: relative;
-    top: 5px;
-  }
+.next-1 {
+  width: 5%;
+  position: relative;
+  top: 5px;
+}
 
   .stackpath-1 {
     width: 10%;
@@ -839,11 +839,11 @@ a.sm {
     display: block;
   }
 
-  .mob-footer {
-    display: none;
-  }
+.mob-footer {
+  display: none;
+}
 
-  .desktop-footer {
+.desktop-footer {
     display: block;
   }
 
