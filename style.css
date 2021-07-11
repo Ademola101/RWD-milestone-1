@@ -30,8 +30,8 @@ body {
 
 .box-5 {
   background-color: yellow;
-  border: 1px grey solid;
   padding: 10px;
+  border-top: 1px solid rgb(196, 194, 194);
 }
 
 .boxx-5 {
@@ -57,7 +57,6 @@ a.callup-1 {
 .header-container {
   display: flex;
   width: 100%;
-  border: 1px solid gray;
 }
 
 .box-2 {
@@ -71,7 +70,7 @@ a.callup-1 {
 
 .num {
   background-color: #000;
-  font-size: 80%;
+  font-size: 60%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -116,8 +115,8 @@ a.topnav:hover {
 .dropdown {
   display: none;
   position: absolute;
-  top: 30px;
-  right: -70px;
+  top: 25px;
+  right: -100px;
   background-color: #000;
 }
 
@@ -139,17 +138,16 @@ ul {
 
 .iconify {
   position: relative;
-  top: 3px;
+  top: 1px;
 }
 
 .events {
   position: relative;
-  bottom: 2px;
 }
 
 .edge {
   position: relative;
-  left: 50px;
+  left: 170px;
 }
 
 li {
@@ -176,6 +174,7 @@ a.drp:hover {
 a.readme {
   text-decoration: none;
   color: rgb(114, 111, 111);
+  padding-right: 6px;
 }
 
 .tnw-logo {
@@ -403,7 +402,7 @@ main {
 
 .space {
   margin: 0;
-  height: 250px;
+  height: 50px;
   width: 100%;
 }
 
@@ -435,6 +434,10 @@ main {
   color: rgb(255, 68, 34);
   display: block;
   margin-top: 2%;
+}
+
+.small_latest_link-s:hover {
+  color: rgb(7, 7, 7);
 }
 
 .ringover {
@@ -646,8 +649,7 @@ a.sm {
   float: right;
 }
 
-/* CSS Media Quer
-*/
+/* CSS Media Query*/
 @media (min-width: 768px) and (max-width: 1023px) {
   .mobile-header {
   display: none;
@@ -721,6 +723,10 @@ a.sm {
     bottom: 20px;
     font-size: 0.8em;
   }
+
+  .small_latest_link:hover {
+    color: rgb(24, 23, 23);
+  }  
 
   .none {
     display: none;
@@ -959,6 +965,15 @@ a.sm {
   body .small_latest_link {
     text-decoration: none;
     color: rgb(255, 68, 34);
+    display: inline;
+    border-right: 2px solid rgb(255, 68, 34);
+    margin-right: 4%;
+    padding-right: 4%;
+  }
+
+  body .small_latest_link:hover {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
     display: inline;
     border-right: 2px solid rgb(255, 68, 34);
     margin-right: 4%;
