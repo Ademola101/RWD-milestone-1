@@ -826,7 +826,7 @@ a.sm {
     width: auto;
     margin-top: 14px;
     position: relative;
-    bottom: 0px;
+    bottom: 0;
     top: 30px;
     right: 0;
     margin-right: 0;
@@ -1058,7 +1058,7 @@ a.sm {
     width: auto;
     margin-top: 14px;
     position: relative;
-    bottom: 0px;
+    bottom: 0;
     top: 30px;
     right: 0;
     margin-right: 0;
@@ -1136,7 +1136,7 @@ a.sm {
     font-size: large;
     letter-spacing: 1.5px;
   }
-  
+
   .swiss {
     position: relative;
     left: 3px;
@@ -1147,7 +1147,7 @@ a.sm {
     bottom: 130px;
     left: 10px;
   }
-  
+
   .series > a {
     margin-left: 90px;
   }
