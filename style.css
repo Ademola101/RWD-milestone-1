@@ -552,7 +552,7 @@ a.sm {
 .next {
   position: relative;
   width: 20%;
-  left: 200px;
+  left: 240px;
   top: 30px;
 }
 
@@ -576,6 +576,7 @@ a.sm {
   position: relative;
   top: 21px;
   padding-left: 13px;
+  left: 150px;
 }
 
 .stackpath {
@@ -588,14 +589,14 @@ a.sm {
 
 .made {
   position: relative;
-  left: 220px;
+  left: 370px;
   top: 21px;
 }
 
 .year {
   position: relative;
-  left: 215px;
-  top: 20px;
+  left: 360px;
+  top: 21px;
 }
 
 .tel {
@@ -872,7 +873,7 @@ body .series {
 
 .edge {
   position: relative;
-  left: 43%;
+  left: 30%;
 }
 
 /*  yinkas  start  */
