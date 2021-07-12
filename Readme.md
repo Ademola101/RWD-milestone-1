@@ -1,14 +1,14 @@
 # Replica of the archive The Next Web
 > A replica of archive version of [The Next Web](https://perma.cc/M5ZV-Q2D6) 
 
-![screenshot]()
+![screenshot](/images/nwp.jpg)
 
 ## Built With 
 HTML <br> CSS
 
 ## Live Demo
 
-[Live Demo link]()
+[Live Demo link](https://ademola101.github.io/RWD-milestone-1/)
 
 ## Authors
 
@@ -23,6 +23,12 @@ HTML <br> CSS
 - GitHub: [@shadrxcc](https://github.com/shadrxcc)
 - Twitter: [@shadrxcc](https://twitter.com/shadrxcc)
 - LinkedIn: [Shadrach Akaade](https://www.linkedin.com/in/shadrach-akaade-24a375189/)
+
+👤 **Author 3**
+
+- GitHub: [@YinkTech](https://github.com/yinktech)
+- Twitter: [@YinkTech](https://twitter.com/yinktech)
+- LinkedIn: [Ayeni Olayinka](https://www.linkedin.com/in/ayeni-olayinka-726181134/)
 
 ## 🤝 Contributing
 
