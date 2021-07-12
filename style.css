@@ -17,6 +17,12 @@ body {
   overflow-x: hidden;
 }
 
+.fxheader {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
 .box-1 {
   background-color: black;
 }
@@ -523,7 +529,7 @@ footer {
 }
 
 a.footer {
-  color: rgb(110, 108, 108);
+  color: rgb(255, 254, 254);
   text-decoration: none;
   font-size: 11px;
 }
