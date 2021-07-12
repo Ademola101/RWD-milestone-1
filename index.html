@@ -1,1070 +1,278 @@
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.box-1 {
-  background-color: black;
-}
-
-.box-3 {
-  background-color: white;
-  border-right: 1px grey solid;
-  border-left: 1px grey solid;
-}
-
-.box-4 {
-  background-color: white;
-}
-
-.box-5 {
-  background-color: yellow;
-  padding: 10px;
-  border-top: 1px solid rgb(196, 194, 194);
-}
-
-.boxx-5 {
-  background-color: #fcda19;
-  padding: 4px;
-}
-
-a.callup-1 {
-  padding-left: 10px;
-  text-decoration: none;
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 90%;
-}
-
-.box {
-  padding-right: 0;
-  font-size: 30px;
-  text-align: center;
-  flex: 1;
-}
-
-.header-container {
-  display: flex;
-  width: 100%;
-}
-
-.box-2 {
-  flex: 5;
-  background-color: white;
-}
-
-.search-2 {
-  margin-top: 10px;
-}
-
-.num {
-  background-color: #000;
-  font-size: 60%;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.up {
-  position: relative;
-  top: 5px;
-}
-
-a.topnav {
-  color: rgb(117, 114, 114);
-  text-decoration: none;
-}
-
-a.topnav:hover {
-  color: white;
-}
-
-.deux {
-  text-align: right;
-  padding-right: 50px;
-}
-
-.trois {
-  flex: 9;
-  padding-left: 30px;
-}
-
-.quartz {
-  padding-right: 35px;
-  padding-top: 7px;
-}
-
-.cont {
-  color: rgb(97, 96, 96);
-  background-color: white;
-}
-
-.desktoph-2 {
-  display: flex;
-}
-
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 25px;
-  right: -100px;
-  background-color: #000;
-}
-
-.num ul li:hover .dropdown {
-  display: block;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  position: relative;
-  padding: 5px;
-}
-
-.dropdown ul {
-  display: block;
-  margin: 10px;
-}
-
-.iconify {
-  position: relative;
-  top: 1px;
-}
-
-.events {
-  position: relative;
-}
-
-.edge {
-  position: relative;
-  left: 170px;
-}
-
-li {
-  list-style: none;
-  margin: 0 10px;
-}
-
-.dropdown ul li {
-  width: 150px;
-  padding: 3px;
-}
-
-a.drp {
-  text-decoration: none;
-  color: rgb(75, 75, 75);
-}
-
-a.drp:hover {
-  color: white;
-  background-color: #333;
-  padding: 5px;
-}
-
-a.readme {
-  text-decoration: none;
-  color: rgb(114, 111, 111);
-  padding-right: 6px;
-}
-
-.tnw-logo {
-  width: 90%;
-  height: 20px;
-}
-
-a.callup {
-  text-decoration: none;
-  color: black;
-  font-size: 10px;
-  font-weight: 500;
-  font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-  bottom: 5px;
-}
-
-.info {
-  display: flex;
-  width: 100%;
-  border: 1px solid gray;
-  justify-content: space-between;
-}
-
-.scope {
-  position: relative;
-  bottom: 10px;
-}
-
-.fa {
-  color: black;
-  height: 20px;
-  width: 30px;
-}
-
-a.INFO {
-  text-decoration: none;
-  color: white;
-  font-size: 6px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-a.update {
-  color: #333;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  font-size: 7px;
-}
-
-a.update:hover {
-  color: black;
-}
-
-.rect-box {
-  display: flex;
-  flex: 1;
-}
-
-.main_heading {
-  color: rgb(255, 68, 34);
-  text-decoration: none;
-  font-weight: bolder;
-}
-
-/*  fullwidth  */
-
-.highlight-container {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  font-family: Avalon, sans-serif;
-  font-size: 22px;
-  font-weight: bold;
-  letter-spacing: -0.015em;
-  color: #fff;
-}
-
-.first-highlight {
-  transition: background-color 0.4s ease;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url("images/firsihighlight.jpg");
-  background-size: 100% 100%;
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  will-change: background-color;
-  z-index: 2;
-}
-
-.first-highlight:hover {
-  opacity: 0.8;
-  transition: ease-in-out 0.2s;
-}
-
-.first-highlight-text-leading {
-  display: none;
-}
-
-.first-highlight-text {
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 80px;
-  cursor: pointer;
-}
-
-.first-highlight-sub-text {
-  color: hsla(0, 0%, 100%, 0.6);
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 20px;
-  padding-top: -10px;
-  font-size: 16px;
-}
-
-.second-highlight {
-  transition: background-color 0.4s ease;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url("images/seconhighlight.webp");
-  background-size: 100% 100%;
-  display: block;
-  max-width: 100%;
-  margin-top: 9px;
-  max-height: 100%;
-  will-change: background-color;
-  z-index: 2;
-}
-
-.second-highlight:hover {
-  opacity: 0.8;
-  transition: ease-in-out 0.2s;
-}
-
-.third-highlight {
-  transition: background-color 0.4s ease;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url("images/thirdhighlight.webp");
-  background-size: 100% 100%;
-  display: block;
-  max-width: 100%;
-  margin-top: 9px;
-  max-height: 100%;
-  will-change: background-color;
-  z-index: 2;
-}
-
-.third-highlight:hover {
-  opacity: 0.8;
-  transition: ease-in-out 0.2s;
-}
-
-.other-highlight-text {
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 80px;
-  cursor: pointer;
-}
-
-.other-highlight-sub-text {
-  color: hsla(0, 0%, 100%, 0.6);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-  padding-top: -10px;
-  font-size: 16px;
-}
-
-.namehigh:hover {
-  cursor: pointer;
-  color: #fff;
-}
-
-.fa-share-alt {
-  color: hsla(0, 0%, 100%, 0.6);
-  margin-right: -7px;
-  margin-left: 5px;
-}
-
-.fa-clock {
-  color: hsla(0, 0%, 100%, 0.6);
-  margin-right: -7px;
-  margin-left: 5px;
-}
-
-/*  break  */
-
-.news_container {
-  display: flex;
-}
-
-.news_image {
-  width: 30vw;
-  margin-right: 2%;
-}
-
-.news_image > img {
-  max-height: 100%;
-  max-width: 100%;
-  margin-bottom: 5%;
-}
-
-.news_headline {
-  margin-right: 4%;
-}
-
-.news_link {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  line-height: normal;
-  margin-bottom: 5%;
-}
-
-.news_link + div {
-  color: rgb(170, 170, 170);
-  margin-bottom: 2%;
-}
-
-.desktop-header {
-  display: none;
-}
-
-main {
-  margin-bottom: 200px;
-  width: 100vw;
-}
-
-.space {
-  margin: 0;
-  height: 50px;
-  width: 100%;
-}
-
-.latest_link {
-  text-decoration: none;
-  color: rgb(255, 68, 34);
-  font-size: 200%;
-  font-weight: 900;
-  margin-bottom: 20px;
-}
-
-.latest_link:hover {
-  text-decoration: none;
-  color: rgb(12, 12, 11);
-  font-size: 200%;
-  font-weight: 900;
-  margin-bottom: 20px;
-}
-
-.small_latest_link {
-  text-decoration: none;
-  color: rgb(255, 68, 34);
-  display: block;
-  margin-top: 2%;
-}
-
-.small_latest_link-s {
-  text-decoration: none;
-  color: rgb(255, 68, 34);
-  display: block;
-  margin-top: 2%;
-}
-
-.small_latest_link-s:hover {
-  color: rgb(7, 7, 7);
-}
-
-.ringover {
-  background-color: #f42;
-  font-size: 18px !important;
-  padding: 10.67px 16px 10.67px 84px;
-  height: 30px;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.ringover_img {
-  height: 60px;
-  width: 60px;
-  position: relative;
-  right: 70px;
-}
-
-.ring_link {
-  text-decoration: none;
-  color: white;
-  position: relative;
-  bottom: 50px;
-  right: 60px;
-  font-weight: 900;
-  font-size: large;
-  letter-spacing: 1.5px;
-}
-
-.series {
-  background-color: rgba(255, 68, 34, 0.08);
-  width: 100vw;
-  position: relative;
-  bottom: 50px;
-  height: 60px;
-  right: 85px;
-}
-
-.series > a {
-  text-decoration: none;
-  color: black;
-  font-size: large;
-  font-weight: 900;
-  margin-left: 25%;
-  position: relative;
-  top: 10px;
-}
-
-.series-link {
-  text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif;
-  color: silver;
-  margin-left: 90px;
-  position: relative;
-  top: 5px;
-  font-size: small;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-body {
-  background-color: rgb(59, 58, 58);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding-top: 15px;
-  width: 100%;
-}
-
-a.footer {
-  text-decoration: none;
-  color: white;
-  font-size: 11px;
-}
-
-a.sm {
-  background-color: rgb(73, 72, 72);
-  border-radius: 60px;
-  padding: 10px;
-  width: 2px;
-}
-
-.logo {
-  width: 5%;
-}
-
-.copyright,
-.copyright-2 {
-  text-align: center;
-  background-color: black;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 10px;
-}
-
-.next {
-  position: relative;
-  width: 20%;
-  left: 200px;
-  top: 30px;
-}
-
-.desktop-footer {
-  display: none;
-}
-
-.copyright-2 {
-  display: flex;
-}
-
-.img {
-  width: 1%;
-  position: relative;
-  bottom: 15px;
-  left: 85px;
-}
-
-.stack {
-  position: relative;
-  top: 21px;
-  padding-left: 13px;
-}
-
-.stackpath {
-  width: 13%;
-  height: 10px;
-  position: relative;
-  top: 1px;
-  padding-left: 3px;
-}
-
-.made {
-  position: relative;
-  left: 220px;
-  top: 5px;
-}
-
-.year {
-  position: relative;
-  left: 215px;
-  top: 5px;
-}
-
-.tel {
-  margin-top: 70px;
-  margin-bottom: 2%;
-}
-
-.tel-text {
-  text-decoration: none;
-  color: rgb(128, 119, 119);
-}
-
-.lighter-red {
-  background-color: #fffaf8;
-  position: relative;
-  bottom: 20px;
-  font-size: 0.7em;
-}
-
-.tel-subtext {
-  text-decoration: none;
-  color: gray;
-  width: 80%;
-}
-
-.tel-subtext-container {
-  border-top: solid 1px rgba(255, 68, 34, 0.08);
-  margin-top: 5px;
-}
-
-.funding-items {
-  margin-bottom: 2%;
-}
-
-.stackpath-1 {
-  width: 20%;
-  position: relative;
-  top: 1px;
-}
-
-.next-1 {
-  width: 10%;
-  position: relative;
-  top: 3px;
-}
-
-.wrapp {
-  width: 5%;
-  position: relative;
-  top: 10px;
-  padding-bottom: 3px;
-}
-
-.access {
-  width: auto;
-  height: 6%;
-  padding: 10px;
-  position: fixed;
-  bottom: 11px;
-  right: 23px;
-  background-color: rgb(74, 74, 252);
-}
-
-.accessibility {
-  float: right;
-}
-
-/*  CSS  Media  Query*/
-@media (min-width: 768px) and (max-width: 1023px) {
-
-.mobile-header {
-  display: none;
-}
-
-.next-1 {
-  width: 5%;
-  position: relative;
-  top: 5px;
-}
-
-.stackpath-1 {
-  width: 10%;
-  position: relative;
-  padding-bottom: 1px;
-}
-
-  /*  yinkas  start  */
-.highlight-container {
-	display: flex;
-	flex-direction: row;
-}
-
-.first-highlight {
-  flex: 3;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 5px;
-}
-
-.first-highlight-text-leading {
-  display: none;
-}
-
-.first-highlight-text {
-  display: block;
-  font-size: 35px;
-  margin-top: 150px;
-  margin-left: 5px;
-  letter-spacing: 1px;
-  margin-bottom: 0;
-}
-
-.first-highlight-sub-text {
-  margin-bottom: 0;
-}
-
-.fa.fa-share-alt.icon {
-  display: none;
-}
-
-.grip-highlight {
-  flex: 2;
-}
-
-.second-highlight{
-  margin-top: 0;
-}
-.third-highlight {
-  bottom: 0;
-}
-
-/*  yinka  stops  */
-
-.lighter-red {
-  background-color: #fffaf8;
-  position: relative;
-  bottom: 20px;
-  font-size: 0.8em;
-}
-
-.desktop-header {
-  display: block;
-}
-
-.small_latest_link:hover {
-  color: rgb(24, 23, 23);
-}
-
-.none {
-  display: none;
-}
-
-.latest-add-container {
-  margin: 50px;
-}
-
-.news_container {
-  display: inline;
-  width: 20vw;
-  margin-right: 2%;
-}
-
-  a.callup {
-  font-size: 65%;
-}
-
-.news_image {
-  display: inline;
-}
-
-.container {
-  display: flex;
-  width: 100vw;
-  flex-wrap: wrap;
-}
-
-.funding-container {
-  display: grid;
-  grid-template-columns: 33vw 33vw 33vw;
-  row-gap: 10px;
-  width: 100vw;
-}
-
-.funding-items {
-  width: auto;
-  margin-right: 4%;
-}
-
-body .series {
-  background-color: rgba(255, 68, 34, 0.08);
-  width: auto;
-  margin-top: 14px;
-  position: relative;
-  bottom: 50px;
-  right: 0;
-  margin-right: 0;
-  height: 60px;
-}
-
-  i + a {
-  text-decoration: none;
-  color: gray;
-}
-
-.series > a {
-  margin-left: 100px;
-  top: 5px;
-}
-
-.series-link {
-  top: 2px;
-  margin-left: 100px;
-}
-
-  body .ring_link {
-  text-decoration: none;
-  color: white;
-  font-weight: 900;
-  font-size: 1.3vw;
-  letter-spacing: 1.5px;
-  left: 20px;
-  bottom: 35px;
-}
-
-.ringover {
-  background-color: #f42;
-  font-size: 18px !important;
-  height: 30px;
-  padding: 0%;
-}
-
-.ringover_img {
-  height: auto;
-  max-width: 100%;
-  left: 10px;
-  right: 0;
-  top: 10px;
-}
-
-.desktop-footer {
-  display: none;
-}
-
-.mob-footer {
-  display: block;
-}
-}
-
-/*  End  of  media  query  */
-
-/*  CSS  media  for  Desktop  query  for  1024px  */
-
-@media only screen and (min-width: 1024px) {
-.mobile-header {
-  display: none;
-}
-
-.desktop-header {
-  display: block;
-}
-
-.mob-footer {
-  display: none;
-}
-
-.desktop-footer {
-  display: block;
-}
-
-.edge {
-  position: relative;
-  left: 43%;
-}
-
-/*  yinkas  start  */
-
-.highlight-container {
-  display: flex;
-  flex-direction: row;
-  padding: 3px;
-  height: 430px;
-  overflow: hidden;
-}
-
-.first-highlight {
-  background: linear-gradient(rgba(255, 0, 0, 0.25), rgba(0, 0, 0, 30)), url("images/firsihighlight.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 7px;
-  height: 490px;
-  flex: 4;
-}
-
-.first-highlight-text-leading {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.first-highlight-text-img {
-  width: 50%;
-  padding: 10px;
-}
-
-.logo-time {
-  padding: 10px;
-  margin-left: 15%;
-}
-
-.first-highlight-text {
-  font-size: 50px;
-  display: block;
-  width: 90%;
-}
-
-.grip-highlight {
-  flex: 2;
-}
-
-.second-highlight {
-  margin-top: 0;
-  height: 210px;
-}
-
-.other-highlight-group {
-  padding-top: 50px;
-}
-
-.other-highlight-text {
-  font-size: 25px;
-  text-justify: newspaper;
-}
-
-.other-highlight-sub-text {
-  display: block;
-  max-width: 100%;
-  margin-top: 0;
-}
-
-.third-highlight {
-  margin-top: 4px;
-  height: 210px;
-  background-position: center;
-}
-
-/*  yinka  stops  */
-
-body {
-  width: 100vw;
-}
-
-.latest-side {
-  display: inline;
-  margin-left: 0;
-  width: 400px;
-}
-
-.latest_link {
-  text-decoration: none;
-  color: rgb(255, 68, 34);
-  font-size: 200%;
-  font-weight: 900;
-  margin-bottom: 20px;
-  width: 60vw;
-}
-
-  body .small_latest_link {
-  text-decoration: none;
-  color: rgb(255, 68, 34);
-  display: inline;
-  border-right: 2px solid rgb(255, 68, 34);
-  margin-right: 4%;
-  padding-right: 4%;
-}
-
-body .small_latest_link:hover {
-  text-decoration: none;
-  color: rgb(12, 12, 12);
-  display: inline;
-  border-right: 2px solid rgb(255, 68, 34);
-  margin-right: 4%;
-  padding-right: 4%;
-}
-
-body .small_latest_link-s {
-  text-decoration: none;
-  color: rgb(255, 68, 34);
-  display: inline;
-  margin-right: 4%;
-  padding-right: 4%;
-}
-
-.latest-add-container {
-  margin: 50px;
-}
-
-.funding-container {
-  display: grid;
-  grid-template-columns: 24vw 24vw 24vw 24vw;
-  row-gap: 10px;
-  width: 100vw;
-}
-
-.lighter-red {
-  background-color: #fffaf8;
-  position: relative;
-  bottom: 20px;
-  font-size: 0.8em;
-}
-
-.funding-items {
-  width: auto;
-  margin-right: 4%;
-}
-
-  body .series {
-  background-color: rgba(255, 68, 34, 0.08);
-  width: auto;
-  margin-top: 14px;
-  position: relative;
-  bottom: 50px;
-  right: 0;
-  margin-right: 0;
-  height: 60px;
-}
-
-.series > a {
-  margin-left: 100px;
-  top: 5px;
-}
-
-.series-link {
-  top: 2px;
-  margin-left: 100px;
-}
-
-.ring_link {
-  left: 20px;
-}
-
-  body .ring_link {
-  text-decoration: none;
-  color: white;
-  font-weight: 900;
-  font-size: large;
-  letter-spacing: 1.5px;
-  bottom: 35px;
-}
-
-.latest_link:hover {
-  text-decoration: none;
-  color: rgb(12, 12, 11);
-  font-size: 200%;
-  font-weight: 900;
-  margin-bottom: 20px;
-}
-
-.latest-header {
-  display: flex;
-}
-
-.ringover {
-  background-color: #f42;
-  font-size: 18px !important;
-  height: 30px;
-  padding: 0%;
-}
-
-.access {
-  border-radius: 60px;
-  height: 8%;
-}
-
-.ringover_img {
-  height: auto;
-  max-width: 100%;
-  left: 10px;
-  right: 0;
-  top: 10px;
-}
-}
-
-/*  CSS  media  query  for  1024px  */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perma | TNW</title>
+    <link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+</head>
+<body>
+	
+    <header>
+        <!--mobile view header-->   
+        <div class="mobile-header">
+        <div class="header-container">
+<div class="box box-1"><a href="#"><svg class="tnw-logo" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 165 40" width="2500" height="606"><style>.st0{fill:#f42}</style><path class="st0" d="M72.5 4.4C69.7 1.6 65.9 0 61.9 0H40v40h15V15h4.8c1.3 0 2.6.5 3.5 1.5l5.2 5.2c.9.9 1.5 2.2 1.5 3.5V40h15V23.1c0-4-1.6-7.8-4.4-10.6l-8.1-8.1zM150 0v14.8c0 1.3-.5 2.6-1.5 3.5l-5.2 5.2c-.9.9-2.2 1.5-3.5 1.5H132.6c1.5-2.4 2.4-5.2 2.4-8.1V0h-15v14.8c0 1.3-.5 2.6-1.5 3.5l-5.2 5.2c-.9.9-2.2 1.5-3.5 1.5H105V0H90v40h21.9c4 0 7.8-1.6 10.6-4.4l5-5V40h14.4c4 0 7.8-1.6 10.6-4.4l8.1-8.1c2.8-2.8 4.4-6.6 4.4-10.6V0h-15zM0 15h10v25h15V15h10V0H0z"/></svg></a></div>
+<div class="box box-2"></div>
+<div class="box box-3"><a href="#"><i class="fa fa-search"></i></a></div>
+<div class="box box-4"><a href="#"><i class="fa fa-bars"></i></a></div>
+
+        </div>
+        <div>
+            <div class="box box-5"><a class="callup" href="https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646mp_/https://thenextweb.com/events/t500">Calling young digital talents in the Netherlands - Be recognized in the T500 </a></div>
+        </div>
+    </div>
+        <div class="desktop-header">
+<div class="desktop-h">
+    <div class="num">
+        <ul>
+        <li><a class="up topnav" href="#">News</a></li>
+        <li class="events"><a class="up topnav" href="#">Events <i class="iconify" data-icon="ion-caret-down" data-inline="false"></i></a>
+        <div class="dropdown">
+            <ul>
+                <li><a class="drp" href="#">TNW2020</a></li>
+                <li><a class="drp" href="#">Couch Conferences</a></li>
+            </ul>
+        </div>
+        </li>
+        <li><a class="up topnav" href="#">Business</a></li>
+        <li><a class="up topnav" href="#">AMAs</a></li>
+        <li><a class="up topnav" href="#">Spaces</a></li>
+        <li><a class="up topnav" href="#">Terms & Conditions</a></li>
+        <div class="edge">
+            <ul>
+        <li><a class="topnav" href="#">About</a></li>
+        <li><a class="topnav" href="#">Advertise</a></li>
+        <li><a class="topnav" href="#">Jobs</a></li>
+        <li><a class="topnav" href="#">Contact</a></li></ul></div></ul>
+    </div>
+</div>
+
+<div class="desktoph-2">
+    <div class="trois cont">
+        <a class="readme" href="#">LATEST</a>
+        <a class="readme" href="#">HARD FORK</a>
+        <a class="readme" href="#">README</a>
+        <a class="readme" href="#">GROWTH QUARTERS</a>
+        <a class="readme" href="#">SHIFT</a>
+        <a class="readme" href="#">NEURAL</a>
+    </div>
+    <div class="quartz cont"><a href="#"><svg class="scope" xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></a></div>
+</div>
+
+<div>
+    <div class="boxx-5"><a class="callup-1" href="https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646mp_/https://thenextweb.com/events/t500">Calling young digital talents in the Netherlands - Be recognized in the T500 </a></div>
+</div>
+</div>
+   </header>
+
+<!-- Yinkas start -->
+<div class="highlight-container">
+	<div class="first-highlight">
+		<span class="first-highlight-text-leading" > 
+			<img alt="logo" class="first-highlight-text-img" src="images/tnw-w.png" />
+			<span class="logo-time"> Tuesday — January 26, 2021 </span>
+		</span>
+		<span class="first-highlight-text"> Opal cuts off your apps’ internet access to help you stop doomscrolling </span>
+		<span class="first-highlight-sub-text"> by <span class="namehigh"> Ivan Mehta </span>  <i class="fa fa-clock"> </i>1 hours ago <i class="fa fa-share-alt"></i>6</span>
+	</div>
+	<div class="grip-highlight">
+	<div class="second-highlight">
+		<div class="other-highlight-group">
+		<span class="other-highlight-text"> Google unveils privacy-friendly AI cookie killer </span>
+		<span class="other-highlight-sub-text"> by <span class="namehigh"> Thomas Macaulay </span>  <i class="fa fa-clock"> </i>2 hours ago <i class="fa fa-share-alt icon"> 4 </i></span>
+	</div>
+</div>
+	<div class="third-highlight">
+		<div class="other-highlight-group">
+		<span class="other-highlight-text">  This Mac app automatically detects your duplicate files</span>
+		<span class="other-highlight-sub-text"> by <span class="namehigh"> Ivan Mehta </span>  <i class="fa fa-clock"> </i>2 hours ago <i class="fa fa-share-alt icon"> 5 </i>  </span>
+	</div>
+</div>
+</div>
+</div>
+	<!-- Yinkas Ends -->
+	
+    <!--
+       Ademola part
+   -->
+	 
+    <main> 
+        
+<div class="space">
+
+</div>
+<div class="latest-add-container"> 
+<header class="latest-header"> <a class="latest_link" href="#">  Latest funding rounds on Index.co > </a>
+    <span class="latest-side">
+        <a class="small_latest_link" href="#"> Add info
+        </a>
+        <a class="small_latest_link" href="#"> Get updates by email</a>
+        <a class="small_latest_link-s" href="#"> See more</a>
+    </span>
+</header>
+<div class="funding-container"> 
+<div class="funding-items">
+<div>
+    <div class="ringover"> <a href="#">
+        <img class="ringover_img" src="images/image.jpg" alt="ringover">
+    </a>
+      <a href="#" class="ring_link"> 
+        Ringover</a>
+        <div class="series">
+            <a href="#"> $12M</a>
+           <div> <a class="series-link" href="#"> SERIE A</a> </div>
+        </div>
+    </div>
+</div>
+<div class="lighter-red">
+<div class="tel">
+    <i class="fa fa-tag"></i> <a href="#" class="tel-text"> Telecommunication</a> 
+</div>
+<div>
+    <i class="fa fa-briefcase"></i> <a href="#" class="tel-text"> Expedition Growth Capital</a>
+
+</div>
+<div class="tel-subtext-container">
+    <a href="#" class="tel-subtext"> Ringover raises $12 million to bring enterprise communications to the cloud on VentureBeat</a>
+</div></div>
+</div>
+<div class="funding-items">
+    <div>
+        <div class="ringover"> <a href="#">
+            <img class="ringover_img" src="images/swiss.jpg" alt="swiss">
+        </a>
+          <a href="#" class="ring_link"> 
+            SwissDeCode</a>
+            <div class="series">
+                <a href="#"> $4.2M</a>
+               <div> <a class="series-link" href="#"> VENTURAL CAPITAL</a> </div>
+            </div>
+        </div>
+    </div>
+    <div class="lighter-red">
+    <div class="tel">
+        <i class="fa fa-tag"></i> <a href="#" class="tel-text"> Biotechnology</a> 
+    </div>
+    <div>
+        <i class="fa fa-briefcase"></i> <a href="#" class="tel-text"> VisVires New Protein</a>
+    
+    </div>
+    <div class="tel-subtext-container">
+        <a href="#" class="tel-subtext"> BREAKING: Food testing startup SwissDeCode nets $4.2m from VisVires New Protein, EIT Food on AgFunderNews
+        </a>
+    </div></div>
+    </div>
+
+    <div class="funding-items">
+        <div>
+            <div class="ringover"> <a href="#">
+                <img class="ringover_img" src="images/klook.jpeg" alt="klook">
+            </a>
+              <a href="#" class="ring_link"> 
+                Klook</a>
+                <div class="series">
+                    <a href="#"> $200M</a>
+                   <div> <a class="series-link" href="#"> SERIE E</a> </div>
+                </div>
+            </div>
+        </div>
+        <div class="lighter-red">
+        <div class="tel">
+            <i class="fa fa-tag"></i> <a href="#" class="tel-text"> Internet</a> 
+        </div>
+        <div>
+            <i class="fa fa-briefcase"></i> <a href="#" class="tel-text"> Boyu Capital, +4</a>
+        
+        </div>
+        <div class="tel-subtext-container">
+            <a href="#" class="tel-subtext">SoftBank-backed travel platform Klook raises $200M amid COVID-19 on TechCrunch</a>
+        </div>
+        </div></div>
+
+        <div class="funding-items none">
+<div>
+    <div class="ringover"> <a href="#">
+        <img class="ringover_img" src="images/wolt.jfif" alt="wolt">
+    </a>
+      <a href="#" class="ring_link"> 
+        Wolt</a>
+        <div class="series">
+            <a href="#"> $530M</a>
+           <div> <a class="series-link" href="#"> VENTURE CAPITAL</a> </div>
+        </div>
+    </div>
+</div> <div class="lighter-red">
+<div class="tel">
+    <i class="fa fa-tag"></i> <a href="#" class="tel-text">Mobile, +5 </a> 
+</div>
+<div>
+    <i class="fa fa-briefcase"></i> <a href="#" class="tel-text"> DST Global, +9</a>
+
+</div>
+<div class="tel-subtext-container">
+    <a href="#" class="tel-subtext"> Food delivery startup Wolt raises $530M after tripling revenues on SiliconANGLE
+    </a>
+</div></div>
+</div></div>
+ </div>
+    </main>
+		
+		<!--
+       End Ademola part
+    -->
+    <svg class="access" xmlns="http://www.w3.org/2000/svg" height="24px" viewbox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20.5 6c-2.61.7-5.67 1-8.5 1s-5.89-.3-8.5-1L3 8c1.86.5 4 .83 6 1v13h2v-6h2v6h2V9c2-.17 4.14-.5 6-1l-.5-2zM12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/></svg>
+
+    <footer>
+        <div class="footer-body">
+            <span class="social-links">
+        <div class="socials">
+            <ul>
+    <li><a class="sm footer" href="#"><i class="fab fa-facebook"></i></a></li>
+    <li><a class="sm footer" href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a class="sm footer" href="#"><i class="fab fa-youtube"></i></a></li>
+    <li><a class="sm footer" href="#"><i class="fab fa-instagram"></i></a></li>
+    <li><a class="sm footer" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+    <li><a class="sm footer" href="#"><i class="fas fa-wifi"></i></a></li>
+    <li><a class="sm footer" href="#"><i class="far fa-envelope"></i></a></li>
+</ul>
+</div>
+</span>
+<div class="btm-nav">
+    <ul>
+        <li><a class="footer" href="#">EVENTS</a></li>
+                    <li><a class="footer" href="#">ABOUT</a></li>
+                    <li><a class="footer" href="#">ADVERTISE</a></li>
+                    <li><a class="footer" href="#">JOBS</a></li>
+                    <li><a class="footer" href="#">CONTACT</a></li>
+    </ul>
+    </div>
+    </div>
+
+    <div class="mob-footer">
+            <div class="copyright">
+              <span class="wrapp"> <img class="next-1" src="images/The_Next_Web_Logo_old_black.png" alt="the next web logo"> 2006-2021 The Next Web B.v.</span>
+                <p>Made with in Amsterdam </p> 
+            Powered by <img class="stackpath-1" src="images/stackpath-logo-reversed-screen.png" alt="stack path logo">
+            </div></div>
+
+            <div class="desktop-footer">
+                <div class="copyright-2">
+                    <span class="img"> <img class="next" src="images/The_Next_Web_Logo_old_black.png" alt="the next web logo"></span> <p class="year"> 2006-2021 The Next Web B.v.</p>
+                    <p class="made">Made with in Amsterdam </p>
+                    <div class="stack"> Powered by
+                        <img class="stackpath" src="images/stackpath-logo-reversed-screen.png" alt="stack path logo">
+                    </div>
+                </div>
+            </div>
+    </footer>
+		<!-- This script import icons -->
+    <script src="https://kit.fontawesome.com/385ee2c240.js" crossorigin="anonymous"></script>
+</body>
+</html>
