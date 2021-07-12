@@ -651,14 +651,15 @@ a.sm {
   float: right;
 }
 
-/*  CSS  Media  Query*/
+ /*  CSS  Media  Query*/
+
 @media (min-width: 768px) and (max-width: 1023px) {
 
-.mobile-header {
-  display: none;
-}
-
-.next-1 {
+  .mobile-header {
+    display: none;
+  }
+  .ne
+xt-1 {
   width: 5%;
   position: relative;
   top: 5px;
