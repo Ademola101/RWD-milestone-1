@@ -403,6 +403,10 @@ a.update:hover {
   display: none;
 }
 
+a.footer {
+  color: rgb(110, 108, 108);
+}
+
 main {
   margin-bottom: 200px;
   width: 100vw;
@@ -614,6 +618,10 @@ a.sm {
   text-decoration: none;
   color: gray;
   width: 80%;
+}
+
+.socials {
+  padding-bottom: 10px;
 }
 
 .tel-subtext-container {
