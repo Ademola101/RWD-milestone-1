@@ -405,10 +405,6 @@ a.update:hover {
   display: none;
 }
 
-a.footer {
-  color: rgb(110, 108, 108);
-}
-
 main {
   margin-bottom: 200px;
   width: 100vw;
