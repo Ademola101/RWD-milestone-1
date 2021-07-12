@@ -1,7 +1,7 @@
 # Replica of the archive The Next Web
 > A replica of archive version of [The Next Web](https://perma.cc/M5ZV-Q2D6) 
 
-![screenshot]()
+![screenshot](images/nwp.jpg)
 
 ## Built With 
 HTML <br> CSS
