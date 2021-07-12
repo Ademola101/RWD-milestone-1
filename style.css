@@ -73,7 +73,7 @@ a.callup-1 {
 
 .num {
   background-color: #000;
-  font-size: 60%;
+  font-size: 80%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -142,16 +142,17 @@ ul {
 
 .iconify {
   position: relative;
-  top: 1px;
+  top: 3px;
 }
 
 .events {
   position: relative;
+  bottom: 1px;
 }
 
 .edge {
   position: relative;
-  left: 170px;
+  left: 70px;
 }
 
 li {
@@ -188,7 +189,7 @@ a.readme {
 
 .mad {
   position: relative;
-  top: 2px;
+  top: 7px;
 }
 
 a.callup {
@@ -546,7 +547,16 @@ a.sm {
   background-color: black;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  font-size: 65%;
+}
+
+.powered {
+  position: relative;
+  top: 10px;
 }
 
 .next {
@@ -636,13 +646,13 @@ a.sm {
 }
 
 .stackpath-1 {
-  width: 20%;
+  width: 15%;
   position: relative;
   top: 1px;
 }
 
 .next-1 {
-  width: 10%;
+  width: 6%;
   position: relative;
   top: 3px;
 }
@@ -659,9 +669,10 @@ a.sm {
   height: 5%;
   padding: 10px;
   position: fixed;
-  bottom: 11px;
-  right: 7px;
+  bottom: 3px;
+  right: 3px;
   background-color: rgb(74, 74, 252);
+  z-index: 1;
 }
 
 .accessibility {
@@ -681,10 +692,13 @@ a.sm {
   top: 5px;
 }
 
+.copyright {
+  font-size: 100%;
+}
+
 .stackpath-1 {
   width: 10%;
   position: relative;
-  padding-bottom: 1px;
 }
 
   /*  yinkas  start  */
@@ -867,15 +881,14 @@ body .series {
   display: none;
 }
 
+.edge {
+  position: relative;
+  left: 550px;
+}
+
 .desktop-footer {
   display: block;
 }
-
-.edge {
-  position: relative;
-  left: 30%;
-}
-
 /*  yinkas  start  */
 
 .highlight-container {
