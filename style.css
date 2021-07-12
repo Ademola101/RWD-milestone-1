@@ -260,8 +260,8 @@ a.update:hover {
 /*  fullwidth  */
 
 .nonecontent {
-	display: block;
-	height: 50px;
+  display: block;
+  height: 50px;
 }
 
 .highlight-container {
@@ -419,7 +419,7 @@ a.update:hover {
 main {
   margin-bottom: 200px;
   width: 100vw;
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .space {
@@ -689,8 +689,7 @@ a.sm {
 
 /* CSS  Media  Query */
 @media (min-width: 768px) and (max-width: 1023px) {
-
-	.mobile-header {
+  .mobile-header {
     display: none;
   }
 
@@ -711,10 +710,10 @@ a.sm {
 
   /*  yinkas  start  */
 
-	.nonecontent {
-		display: block;
-		height: 90px;
-	}
+  .nonecontent {
+    display: block;
+    height: 90px;
+  }
 
   .highlight-container {
     display: flex;
@@ -909,10 +908,10 @@ a.sm {
 
   /*  yinkas  start  */
 
-	.nonecontent {
-		display: block;
-		height: 110px;
-	}
+  .nonecontent {
+    display: block;
+    height: 110px;
+  }
 
   .highlight-container {
     display: flex;
