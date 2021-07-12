@@ -99,6 +99,7 @@ a.topnav:hover {
 .trois {
   flex: 9;
   padding-left: 30px;
+  padding-top: 8px;
 }
 
 .quartz {
@@ -185,6 +186,11 @@ a.readme {
   height: 20px;
 }
 
+.mad {
+  position: relative;
+  top: 2px;
+}
+
 a.callup {
   text-decoration: none;
   color: black;
@@ -204,7 +210,7 @@ a.callup {
 
 .scope {
   position: relative;
-  bottom: 10px;
+  bottom: 3px;
 }
 
 .fa {
@@ -398,6 +404,10 @@ a.update:hover {
   display: none;
 }
 
+a.footer {
+  color: rgb(110, 108, 108);
+}
+
 main {
   margin-bottom: 200px;
   width: 100vw;
@@ -552,6 +562,7 @@ a.sm {
 
 .copyright-2 {
   display: flex;
+  padding-bottom: 40px;
 }
 
 .img {
@@ -578,13 +589,13 @@ a.sm {
 .made {
   position: relative;
   left: 220px;
-  top: 5px;
+  top: 21px;
 }
 
 .year {
   position: relative;
   left: 215px;
-  top: 5px;
+  top: 20px;
 }
 
 .tel {
@@ -608,6 +619,10 @@ a.sm {
   text-decoration: none;
   color: gray;
   width: 80%;
+}
+
+.socials {
+  padding-bottom: 10px;
 }
 
 .tel-subtext-container {
@@ -634,17 +649,17 @@ a.sm {
 .wrapp {
   width: 5%;
   position: relative;
-  top: 10px;
+  top: 4px;
   padding-bottom: 3px;
 }
 
 .access {
   width: auto;
-  height: 6%;
+  height: 5%;
   padding: 10px;
   position: fixed;
   bottom: 11px;
-  right: 23px;
+  right: 7px;
   background-color: rgb(74, 74, 252);
 }
 
