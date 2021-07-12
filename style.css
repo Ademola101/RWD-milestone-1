@@ -762,6 +762,7 @@ a.sm {
 
   .desktop-header {
     display: block;
+    position: fixed;
   }
 
   .small_latest_link:hover {
