@@ -81,7 +81,8 @@ a.callup-1 {
   background-color: #000;
   font-size: 80%;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 11px;
+  padding-bottom: 15px;
+  border: 1px solid black;
 }
 
 .up {
@@ -773,6 +774,7 @@ a.sm {
   .desktop-header {
     display: block;
     position: fixed;
+    width: 100%;
   }
 
   .small_latest_link:hover {
