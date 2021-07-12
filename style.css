@@ -1,4 +1,4 @@
-
+/*  hello world */
 *,
 *::before,
 *::after {
@@ -160,7 +160,6 @@ ul {
 .edge {
   position: relative;
   left: 70px;
-  top: 5px;
 }
 
 li {
@@ -259,6 +258,11 @@ a.update:hover {
 
 /*  fullwidth  */
 
+.nonecontent {
+	display: block;
+	height: 50px;
+}
+
 .highlight-container {
   display: flex;
   flex-direction: column;
@@ -277,8 +281,6 @@ a.update:hover {
   display: block;
   max-width: 100%;
   max-height: 100%;
-  will-change: background-color;
-  z-index: 2;
 }
 
 .first-highlight:hover {
@@ -416,6 +418,7 @@ a.update:hover {
 main {
   margin-bottom: 200px;
   width: 100vw;
+	overflow-x: hidden;
 }
 
 .space {
@@ -529,7 +532,7 @@ footer {
 }
 
 a.footer {
-  color: rgb(255, 254, 254);
+  color: rgb(110, 108, 108);
   text-decoration: none;
   font-size: 11px;
 }
@@ -685,7 +688,8 @@ a.sm {
 
 /* CSS  Media  Query */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .mobile-header {
+
+	.mobile-header {
     display: none;
   }
 
@@ -705,6 +709,12 @@ a.sm {
   }
 
   /*  yinkas  start  */
+
+	.nonecontent {
+		display: block;
+		height: 90px;
+	}
+
   .highlight-container {
     display: flex;
     flex-direction: row;
@@ -774,7 +784,7 @@ a.sm {
   }
 
   .latest-add-container {
-    margin: 50px;
+    margin: 2px;
   }
 
   .news_container {
@@ -896,6 +906,11 @@ a.sm {
   }
 
   /*  yinkas  start  */
+
+	.nonecontent {
+		display: block;
+		height: 110px;
+	}
 
   .highlight-container {
     display: flex;
