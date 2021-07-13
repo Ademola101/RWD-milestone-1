@@ -535,6 +535,67 @@ main {
   font-size: small;
 }
 
+/*latest deals styling*/
+.g-container {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.deals img {
+  width: 40%;
+  padding-top: 10px;
+  float: left;
+  padding-left: 20px;
+}
+
+.latest-deals {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 20px;
+}
+
+.see {
+  position: relative;
+  left: 280px;
+  bottom: 1px;
+  color: red;
+}
+
+.deals {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100px;
+  width: 100%;
+  padding-right: 40px;
+}
+
+a.deals-link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 90%;
+  position: relative;
+  left: 25px;
+  top: 10px;
+}
+
+.price {
+  font-size: 10px;
+  position: relative;
+  top: 20px;
+  left: 25px;
+}
+
+s {
+  color: rgb(126, 125, 125);
+}
+
+a.deals-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+/*end of latest deals styling for mobile*/
+
 footer {
   display: flex;
   flex-direction: column;
@@ -727,6 +788,32 @@ a.sm {
     width: 12%;
     position: relative;
   }
+
+  /*latest deals styling for tab*/
+  .g-container {
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .latest-deals {
+    padding-left: 20px;
+  }
+
+  .deals {
+    height: 250px;
+  }
+
+  .deals img {
+    width: 100%;
+  } 
+
+  .see {
+    left: 650px;
+    padding-bottom: 15px;
+  }
+  /*end of latest deals styling for tab*/
 
   /*  yinkas  start  */
 
@@ -1168,6 +1255,36 @@ a.sm {
   .main_heading {
     margin-left: 7%;
   }
+  /*latest deals styling for desktop*/
+  .g-container {
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+  }
+  
+  .deals {
+    height: 350px;
+    font-size: 20px;
+  }
+
+  .deals img {
+    width: 100%;
+  } 
+
+  .latest-deals {
+    padding-left: 20px;
+  }
+
+  .see {
+    left: 1150px;
+    padding-bottom: 10px;
+  }
+
+  .price {
+    font-size: 70%;
+  }
+  /*end of latest deals styling for desktop*/
 }
 
 /* End CSS  media  query  for  1024px  */
