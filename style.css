@@ -738,6 +738,7 @@ a.sm {
   .highlight-container {
     display: flex;
     flex-direction: row;
+    padding: 10px;
   }
 
   .first-highlight {
