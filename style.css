@@ -825,8 +825,9 @@ a.sm {
 
   .container {
     display: flex;
-    width: 100vw;
+    width: 90vw;
     flex-wrap: wrap;
+    margin: 7%;
   }
 
   .funding-container {
@@ -899,6 +900,10 @@ a.sm {
 
   .mob-footer {
     display: block;
+  }
+
+  .main_heading {
+    margin-left: 7%;
   }
 }
 
@@ -1142,9 +1147,30 @@ a.sm {
     right: 0;
     bottom: 52px;
   }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin-left: 7%;
+  }
+
+  .news_container {
+    display: inline;
+    width: 20vw;
+    margin-right: 2%;
+  }
+
+  .news_image {
+    width: auto;
+  }
+
+  .main_heading {
+    margin-left: 7%;
+  }
 }
 
-/*  CSS  media  query  for  1024px  */
+/* End CSS  media  query  for  1024px  */
 
 /* CSS  Media  Query */
 @media only screen and (max-width: 320px) {
