@@ -260,8 +260,8 @@ a.update:hover {
 /*  fullwidth  */
 
 .nonecontent {
-	display: block;
-	height: 50px;
+  display: block;
+  height: 50px;
 }
 
 .highlight-container {
@@ -419,7 +419,7 @@ a.update:hover {
 main {
   margin-bottom: 200px;
   width: 100vw;
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .space {
@@ -475,13 +475,14 @@ main {
   width: 60px;
   position: relative;
   right: 70px;
+  bottom: 62px;
 }
 
 .ring_link {
   text-decoration: none;
   color: white;
   position: relative;
-  bottom: 50px;
+  bottom: 107px;
   right: 60px;
   font-weight: 900;
   font-size: large;
@@ -492,7 +493,7 @@ main {
   background-color: rgba(255, 68, 34, 0.08);
   width: 100vw;
   position: relative;
-  bottom: 50px;
+  top: 20px;
   height: 60px;
   right: 85px;
 }
@@ -690,8 +691,7 @@ a.sm {
 
 /* CSS  Media  Query */
 @media (min-width: 768px) and (max-width: 1023px) {
-
-	.mobile-header {
+  .mobile-header {
     display: none;
   }
 
@@ -712,10 +712,10 @@ a.sm {
 
   /*  yinkas  start  */
 
-	.nonecontent {
-		display: block;
-		height: 90px;
-	}
+  .nonecontent {
+    display: block;
+    height: 90px;
+  }
 
   .highlight-container {
     display: flex;
@@ -827,7 +827,8 @@ a.sm {
     width: auto;
     margin-top: 14px;
     position: relative;
-    bottom: 50px;
+    bottom: 0;
+    top: 30px;
     right: 0;
     margin-right: 0;
     height: 60px;
@@ -855,7 +856,7 @@ a.sm {
     font-size: 1.3vw;
     letter-spacing: 1.5px;
     left: 20px;
-    bottom: 35px;
+    bottom: 98px;
   }
 
   .ringover {
@@ -870,7 +871,7 @@ a.sm {
     max-width: 100%;
     left: 10px;
     right: 0;
-    top: 10px;
+    bottom: 52px;
   }
 
   .desktop-footer {
@@ -910,10 +911,10 @@ a.sm {
 
   /*  yinkas  start  */
 
-	.nonecontent {
-		display: block;
-		height: 110px;
-	}
+  .nonecontent {
+    display: block;
+    height: 110px;
+  }
 
   .highlight-container {
     display: flex;
@@ -1058,7 +1059,8 @@ a.sm {
     width: auto;
     margin-top: 14px;
     position: relative;
-    bottom: 50px;
+    bottom: 0;
+    top: 30px;
     right: 0;
     margin-right: 0;
     height: 60px;
@@ -1084,7 +1086,7 @@ a.sm {
     font-weight: 900;
     font-size: large;
     letter-spacing: 1.5px;
-    bottom: 35px;
+    bottom: 98px;
   }
 
   .latest_link:hover {
@@ -1116,8 +1118,38 @@ a.sm {
     max-width: 100%;
     left: 10px;
     right: 0;
-    top: 10px;
+    bottom: 52px;
   }
 }
 
 /*  CSS  media  query  for  1024px  */
+
+/* CSS  Media  Query */
+@media only screen and (max-width: 320px) {
+  .ring_link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 109px;
+    padding-right: 20px;
+    right: 60px;
+    font-weight: 900;
+    font-size: large;
+    letter-spacing: 1.5px;
+  }
+
+  .swiss {
+    position: relative;
+    left: 3px;
+    bottom: 130px;
+  }
+
+  .ring {
+    bottom: 130px;
+    left: 10px;
+  }
+
+  .series > a {
+    margin-left: 90px;
+  }
+}
