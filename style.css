@@ -126,7 +126,7 @@ a.topnav:hover {
 
 .desktoph-2 {
   display: flex;
-  font-family: geo;
+  font-family: geo, serif;
   font-weight: 400;
 }
 
