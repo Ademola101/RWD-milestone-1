@@ -528,7 +528,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 15px;
+  padding: 50px;
   width: 100%;
 }
 
@@ -559,7 +559,8 @@ a.sm {
 }
 
 .copyright {
-  font-size: 65%;
+  font-size: 85%;
+  padding: 40px;
 }
 
 .powered {
@@ -654,13 +655,13 @@ a.sm {
 }
 
 .stackpath-1 {
-  width: 15%;
+  width: 20%;
   position: relative;
   top: 1px;
 }
 
 .next-1 {
-  width: 6%;
+  width: 10%;
   position: relative;
   top: 3px;
 }
@@ -697,7 +698,7 @@ a.sm {
   .next-1 {
     width: 5%;
     position: relative;
-    top: 5px;
+    top: 3px;
   }
 
   .copyright {
@@ -705,7 +706,7 @@ a.sm {
   }
 
   .stackpath-1 {
-    width: 10%;
+    width: 12%;
     position: relative;
   }
 
