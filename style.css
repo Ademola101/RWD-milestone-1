@@ -1175,7 +1175,8 @@ a.sm {
     margin-left: 90px;
   }
 
-  .mob-footer {
-    width: 100%;
+  footer {
+    width: 370px;
   }
+
 }
