@@ -470,6 +470,10 @@ main {
   color: rgb(7, 7, 7);
 }
 
+.latest-add-container {
+  margin: 4%;
+}
+
 .funding-container {
   width: 92vw;
 }
@@ -503,7 +507,7 @@ main {
 
 .series {
   background-color: rgba(255, 68, 34, 0.08);
-  width: 92vw;
+  width: 88.5vw;
   position: relative;
   top: 20px;
   height: 60px;
@@ -665,6 +669,7 @@ a.sm {
 
 .funding-items {
   margin-bottom: 2%;
+  margin-right: 4%;
 }
 
 .stackpath-1 {
