@@ -470,7 +470,6 @@ main {
   color: rgb(7, 7, 7);
 }
 
-<<<<<<< HEAD
 .latest-add-container {
   margin: 4%;
 }
@@ -479,8 +478,6 @@ main {
   width: 92vw;
 }
 
-=======
->>>>>>> 031e824b369577661543e0b43361c45ba03b84cf
 .ringover {
   background-color: #f42;
   font-size: 18px !important;
@@ -807,7 +804,7 @@ a.sm {
   }
 
   .latest-add-container {
-    margin: 2px;
+    margin: 4%;
   }
 
   .news_container {
@@ -832,7 +829,7 @@ a.sm {
 
   .funding-container {
     display: grid;
-    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-columns: 30.6667vw 30.6667vw 30.6667vw;
     row-gap: 10px;
     width: 100vw;
   }
@@ -1052,12 +1049,12 @@ a.sm {
   }
 
   .latest-add-container {
-    margin: 50px;
+    margin: 4%;
   }
 
   .funding-container {
     display: grid;
-    grid-template-columns: 24vw 24vw 24vw 24vw;
+    grid-template-columns: 23vw 23vw 23vw 23vw;
     row-gap: 10px;
     width: 100vw;
   }
