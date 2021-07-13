@@ -1164,4 +1164,8 @@ a.sm {
   .series > a {
     margin-left: 90px;
   }
+
+  .mob-footer {
+    width: 100%;
+  }
 }
