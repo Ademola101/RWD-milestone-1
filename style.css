@@ -1585,7 +1585,7 @@ a.sm {
     display: flex;
     flex-wrap: wrap;
     width: 90vw;
-    margin-left: 7%;
+    margin: 2% 7% 7% 7%;
   }
 
   .news_container {
