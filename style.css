@@ -816,6 +816,7 @@ main {
   position: relative;
   top: 20px;
   font-size: 25px;
+  margin-left: 5%;
 }
 
 a.dls,
@@ -1083,7 +1084,13 @@ a.sm {
   }
 
   .latest-deals {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
     padding-left: 20px;
+    margin-left: 0;
   }
 
   .deals {
@@ -1627,7 +1634,13 @@ a.sm {
   }
 
   .latest-deals {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
     padding-left: 20px;
+    margin-left: 0;
   }
 
   .see {
