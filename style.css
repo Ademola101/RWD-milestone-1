@@ -1087,7 +1087,7 @@ a.sm {
   .triangles {
     display: grid;
     position: absolute;
-    top: 3712px;
+    top: 6295px;
     right: 250px;
     grid-template-columns: auto auto auto;
     grid-row-gap: 185px;
@@ -1655,7 +1655,7 @@ a.sm {
   .triangles {
     display: grid;
     position: absolute;
-    top: 3153px;
+    top: 4953px;
     grid-template-columns: auto auto auto auto;
     grid-row-gap: 290px;
     grid-column-gap: 250px
