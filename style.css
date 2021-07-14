@@ -263,6 +263,8 @@ a.update:hover {
   color: rgb(255, 68, 34);
   text-decoration: none;
   font-weight: bolder;
+  font-size: 1.5rem;
+  margin-left: 4%;
 }
 
 /*  fullwidth  */
@@ -447,6 +449,10 @@ main {
   font-size: 200%;
   font-weight: 900;
   margin-bottom: 20px;
+}
+
+.container {
+  margin: 4%;
 }
 
 .latest_link:hover {
