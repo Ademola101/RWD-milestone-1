@@ -859,20 +859,12 @@ a.deals-link:hover {
   color: red;
   text-decoration: underline;
 }
-<<<<<<< HEAD
-/* end of latest deals styling for mobile */
-=======
 
 .triangles {
   display: none;
 }
-<<<<<<< HEAD
 
 /* end of latest deals styling for mobile */
-=======
-/*end of latest deals styling for mobile*/
->>>>>>> 6ac03db4368e145f6b7d832272d6195ee9282071
->>>>>>> a7d9a8e347eff208aa3cf24e282a06efed8655e3
 
 footer {
   display: flex;
@@ -1499,15 +1491,6 @@ a.sm {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 50px;
-  }
-
-  .cat-list-items {
-    font-size: 20px;
-    font-weight: 600;
-  }
-
-  .categories-items-image-middle {
-    font-size: 20px;
   }
 
   .categories-items-image-last {
