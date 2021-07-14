@@ -860,6 +860,10 @@ a.deals-link:hover {
   color: red;
   text-decoration: underline;
 }
+
+.triangles {
+  display: none;
+}
 /*end of latest deals styling for mobile*/
 
 footer {
@@ -1078,6 +1082,83 @@ a.sm {
   .see {
     left: 650px;
     padding-bottom: 15px;
+  }
+
+  .triangles {
+    display: grid;
+    position: absolute;
+    top: 6295px;
+    right: 250px;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 185px;
+    grid-column-gap: 200px
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-top: 70px solid yellow;
+    border-left: 70px solid transparent;
+    position: relative;
+    left: 200px;
+    top: 80px;
+  }
+  
+  .x {
+    position: relative;
+    left: 228px;
+    top: 77px;
+  }
+  
+  .xi {
+    position: relative;
+    left: 210px;
+    top: 77px;
+  }
+  
+  .xii {
+    position: relative;
+    left: 183px;
+  }
+
+  .xiii {
+    position: relative;
+    top: 82px;
+    left: 228px;
+  }
+  
+  .xiv {
+    position: relative;
+    left: 210px;
+    top: 83px;
+  }
+
+  .xv {
+    position: relative;
+    left: 190px;
+    top: 82px;
+  }
+
+  .xvi {
+    position: relative;
+    left: 228px;
+    top: 88px;
+  }
+
+  .xvii {
+    position: relative;
+    left: 210px;
+    top: 85px;
+  }
+
+  .percent {
+    transform: rotate(45deg);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    bottom: 70px;
+    right: 30px;
+    font-weight: bold;
   }
   /*end of latest deals styling for tab*/
 
@@ -1571,6 +1652,55 @@ a.sm {
 
   .price {
     font-size: 70%;
+  }
+
+  .triangles {
+    display: grid;
+    position: absolute;
+    top: 4953px;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 290px;
+    grid-column-gap: 250px
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-top: 70px solid yellow;
+    border-left: 70px solid transparent;
+    position: relative;
+    left: 200px;
+    top: 80px;
+  }
+  
+  .x {
+    position: relative;
+    left: 202px;
+  }
+  
+  .xi {
+    position: relative;
+    left: 204px;
+  }
+  
+  .xii {
+    position: relative;
+    left: 190px;
+  }
+  
+  .xv {
+    position: relative;
+    left: 204px;
+  }
+
+  .percent {
+    transform: rotate(45deg);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    bottom: 70px;
+    right: 30px;
+    font-weight: bold;
   }
   /*end of latest deals styling for desktop*/
 }
