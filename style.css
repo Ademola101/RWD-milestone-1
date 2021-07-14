@@ -647,7 +647,9 @@ main {
 
 .categories-items2-heading {
   display: block;
-	font-weight: 500;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 40px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -664,13 +666,6 @@ main {
 	height: 96px;
 	width: 96px;
 }
-
-.firstimg {
-	background-image: url();
-
-}
-
-
 
 .categories-list-items {
 	color: #555;
@@ -696,6 +691,13 @@ main {
 
 li {
 	color: #f42;
+}
+
+
+.categories-items-image-middle:hover,
+.categories-items2-text:hover {
+  text-decoration: underline;
+	cursor: pointer;
 }
 
 .categories-items-image2 {
