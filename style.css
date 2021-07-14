@@ -412,11 +412,15 @@ a.update:hover {
   text-decoration: none;
   color: black;
   font-weight: 700;
+  font-size: 0.8rem;
   line-height: normal;
   margin-bottom: 5%;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .news_link + div {
+  font-size: 0.8rem;
+  font-family: Helvetica, Arial, sans-serif;
   color: rgb(170, 170, 170);
   margin-bottom: 2%;
 }
