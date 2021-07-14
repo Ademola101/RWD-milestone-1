@@ -1715,11 +1715,11 @@ a.sm {
 
   .triangles {
     display: grid;
-    position: absolute;
-    top: 5015px;
+    position: relative;
+    top: 360px;
     grid-template-columns: auto auto auto auto;
     grid-row-gap: 290px;
-    grid-column-gap: 250px;
+    
   }
 
   .triangle {
