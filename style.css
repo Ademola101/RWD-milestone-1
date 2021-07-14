@@ -399,9 +399,8 @@ a.update:hover {
 }
 
 .news_image > img {
-  max-height: 100%;
-  max-width: 100%;
-  margin-bottom: 5%;
+  width: 30vw;
+  margin-right: 2%;
 }
 
 .news_headline {
@@ -426,7 +425,7 @@ a.update:hover {
 }
 
 main {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -535,7 +534,7 @@ main {
   font-size: small;
 }
 
-/*latest deals styling*/
+/* latest deals styling */
 .g-container {
   display: grid;
   grid-gap: 10px;
@@ -594,7 +593,7 @@ a.deals-link:hover {
   color: red;
   text-decoration: underline;
 }
-/*end of latest deals styling for mobile*/
+/* end of latest deals styling for mobile */
 
 footer {
   display: flex;
@@ -789,14 +788,14 @@ a.sm {
     position: relative;
   }
 
-  /*latest deals styling for tab*/
+  /* latest deals styling for tab */
   .g-container {
     grid-template-columns: auto auto auto;
     grid-column-gap: 5px;
     padding-right: 20px;
     padding-bottom: 20px;
   }
-  
+
   .latest-deals {
     padding-left: 20px;
   }
@@ -807,7 +806,7 @@ a.sm {
 
   .deals img {
     width: 100%;
-  } 
+  }
 
   .see {
     left: 650px;
@@ -896,9 +895,15 @@ a.sm {
     margin: 4%;
   }
 
+  .news_image > img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
+
   .news_container {
     display: inline;
-    width: 20vw;
+    width: 28vw;
     margin-right: 2%;
   }
 
@@ -914,7 +919,7 @@ a.sm {
     display: flex;
     width: 90vw;
     flex-wrap: wrap;
-    margin: 7%;
+    margin: 2% 7% 7% 7%;
   }
 
   .funding-container {
@@ -1108,6 +1113,12 @@ a.sm {
     display: inline;
     margin-left: 0;
     width: 400px;
+  }
+
+  .news_image > img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 5%;
   }
 
   .latest_link {
