@@ -1244,10 +1244,6 @@ a.sm {
     height: 300px;
 	}
 
-	.categories-list-items {
-		font-weight: 900;
-	}
-
   /* category styling end */
 
   .lighter-red {
@@ -1485,10 +1481,6 @@ a.sm {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	padding: 50px
-}
-
-.categories-list-items{
-    font-size: 10px;
 }
 
 .cat-list-items {
@@ -1744,7 +1736,8 @@ a.sm {
     right: 30px;
     font-weight: bold;
   }
-  /*end of latest deals styling for desktop*/
+
+  /* end of latest deals styling for desktop */
 }
 
 /* End CSS  media  query  for  1024px  */
