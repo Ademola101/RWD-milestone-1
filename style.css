@@ -539,6 +539,7 @@ main {
 .g-container {
   display: grid;
   grid-gap: 10px;
+  padding-bottom: 150px;
 }
 
 .deals img {
