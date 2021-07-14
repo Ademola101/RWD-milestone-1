@@ -589,7 +589,7 @@ main {
 	height: 276px;
 	margin-bottom: 3px;
 	z-index: 2;
-	position: relative;
+	
 }
 
 .categories-items-image-container {
@@ -600,7 +600,7 @@ main {
 	bottom: 0;
 	left: 0;
 	padding: 14px;
-	position: absolute;
+	padding-top: 180px;
 	right: 0;
 	z-index: 3;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -707,7 +707,7 @@ li {
 	height: 276px;
 	margin-bottom: 3px;
 	z-index: 2;
-	position: relative;
+	
 }
 
 .categories-items-image3 {
@@ -719,7 +719,7 @@ li {
 	height: 276px;
 	margin-bottom: 3px;
 	z-index: 2;
-	position: relative;
+	
 }
 
 
@@ -732,7 +732,7 @@ li {
 	height: 276px;
 	margin-bottom: 3px;
 	z-index: 2;
-	position: relative;
+	
 }
 
 .categories-items-image4 {
@@ -744,7 +744,7 @@ li {
 	height: 276px;
 	margin-bottom: 3px;
 	z-index: 2;
-	position: relative;
+	
 }
 
 .categories-items-image5 {
@@ -756,7 +756,7 @@ li {
 	height: 276px;
 	margin-bottom: 3px;
 	z-index: 2;
-	position: relative;
+	
 }
 
 .categories-items-image6 {
@@ -768,7 +768,7 @@ li {
 	height: 276px;
 	margin-bottom: 3px;
 	z-index: 2;
-	position: relative;
+	
 }
 
 
@@ -782,7 +782,7 @@ li {
 	height: 276px;
 	margin-bottom: 3px;
 	z-index: 2;
-	position: relative;
+	
 }
 
 .categories-items-image8 {
@@ -794,7 +794,7 @@ li {
 	height: 276px;
 	margin-bottom: 3px;
 	z-index: 2;
-	position: relative;
+	
 }
 
 
@@ -1373,19 +1373,21 @@ a.sm {
   }
 
   /*  yinka  stops  */
-/* desktop styling */
+/* desktop styling for category section */
 
 .category-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	padding: 50px
 }
+
 .cat-list-items {
 	font-size: 20px;
 	font-weight: 600;
 }
 
-/* desktop styling end */
+/* desktop styling for category section */
+
   body {
     width: 100vw;
   }
