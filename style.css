@@ -812,11 +812,19 @@ main {
   top: 20px;
 }
 
+a.dls,
+a.seeall {
+  color: red;
+  text-decoration: none;
+}
+
 .see {
   position: relative;
   left: 280px;
   bottom: 1px;
+  font-family: Arial, Helvetica, sans-serif;
   color: red;
+  font-weight: 400;
 }
 
 .deals {
@@ -1697,7 +1705,7 @@ a.sm {
   }
 
   .see {
-    left: 1150px;
+    left: 1130px;
     padding-bottom: 10px;
   }
 
