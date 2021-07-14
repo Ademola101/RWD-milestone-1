@@ -534,6 +534,136 @@ main {
   top: 5px;
   font-size: small;
 }
+/* category styling */
+
+
+.categories-list-items {
+	color: #555;
+	display: block;
+	padding: 6px 0 6px 14px;
+	position: relative;
+	margin-left: -15px;
+	font-size: 100%;
+}
+
+.categories-list-items:hover {
+	color: black;
+	cursor: pointer;
+	transition: ease-in-out 0.4s;
+}
+
+.cat-list-items {
+	border-bottom: 1px solid #eee;
+	margin: 20px;
+	opacity: 1;
+}
+
+
+li {
+	color: #f42;
+}
+
+.categories-items-image2 {
+	background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("images/appsimg.jpg");
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+	max-width: 100%;
+	height: 276px;
+	margin-bottom: 3px;
+	z-index: 2;
+	position: relative;
+}
+
+.categories-items-image3 {
+	background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("images/gearimg.jpg");
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+	max-width: 100%;
+	height: 276px;
+	margin-bottom: 3px;
+	z-index: 2;
+	position: relative;
+}
+
+
+.categories-items-image9 {
+	background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("images/techimg.jpg");
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+	max-width: 100%;
+	height: 276px;
+	margin-bottom: 3px;
+	z-index: 2;
+	position: relative;
+}
+
+.categories-items-image4 {
+	background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("images/creativityimg.webp");
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+	max-width: 100%;
+	height: 276px;
+	margin-bottom: 3px;
+	z-index: 2;
+	position: relative;
+}
+
+.categories-items-image5 {
+	background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("images/podiumimg.webp");
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+	max-width: 100%;
+	height: 276px;
+	margin-bottom: 3px;
+	z-index: 2;
+	position: relative;
+}
+
+.categories-items-image6 {
+	background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("images/insightimg.webp");
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+	max-width: 100%;
+	height: 276px;
+	margin-bottom: 3px;
+	z-index: 2;
+	position: relative;
+}
+
+
+
+.categories-items-image7 {
+	background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("images/launchimg.jpg");
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+	max-width: 100%;
+	height: 276px;
+	margin-bottom: 3px;
+	z-index: 2;
+	position: relative;
+}
+
+.categories-items-image8 {
+	background: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url("images/distractimg.jpg");
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+	max-width: 100%;
+	height: 276px;
+	margin-bottom: 3px;
+	z-index: 2;
+	position: relative;
+}
+
+
+/* category styling end */
 
 /*latest deals styling*/
 .g-container {
@@ -769,7 +899,7 @@ a.sm {
   float: right;
 }
 
-/* CSS  Media  Query */
+/* CSS  Media  Query for Tab View */
 @media (min-width: 768px) and (max-width: 1023px) {
   .mobile-header {
     display: none;
@@ -871,6 +1001,14 @@ a.sm {
   }
 
   /*  yinka  stops  */
+
+  /* category styling */
+	.category-container {
+		display: grid;
+		grid-template-columns: auto auto;
+  }
+
+  /* category styling end */
 
   .lighter-red {
     background-color: #fffaf8;
@@ -1100,7 +1238,19 @@ a.sm {
   }
 
   /*  yinka  stops  */
+/* desktop styling */
 
+.category-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 50px
+}
+.cat-list-items {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+/* desktop styling end */
   body {
     width: 100vw;
   }
