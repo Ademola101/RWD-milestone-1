@@ -282,6 +282,7 @@ a.update:hover {
   letter-spacing: -0.015em;
   color: #fff;
   padding: 10px;
+	margin-bottom: 50px;
 }
 
 .first-highlight {
@@ -426,7 +427,6 @@ a.update:hover {
 }
 
 main {
-  margin-bottom: 200px;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -1173,6 +1173,7 @@ a.sm {
     display: flex;
     flex-direction: row;
     padding: 10px;
+		margin-bottom: 50px;
   }
 
   .first-highlight {
@@ -1223,6 +1224,11 @@ a.sm {
 		display: grid;
 		grid-template-columns: auto auto;
   }
+
+	.categories-list-items {
+    font-size: 20px;
+		font-weight: 900;
+	}
 
   /* category styling end */
 
@@ -1388,6 +1394,7 @@ a.sm {
     padding: 3px;
     height: 430px;
     overflow: hidden;
+    margin-bottom: 50px;
   }
 
   .first-highlight {
