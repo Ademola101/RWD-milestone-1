@@ -9,6 +9,11 @@
 
 html {
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.mobile-header {
+  width: 100vw;
 }
 
 body {
@@ -263,6 +268,8 @@ a.update:hover {
   color: rgb(255, 68, 34);
   text-decoration: none;
   font-weight: bolder;
+  font-size: 1.5rem;
+  margin-left: 4%;
 }
 
 /*  fullwidth  */
@@ -282,6 +289,7 @@ a.update:hover {
   letter-spacing: -0.015em;
   color: #fff;
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 .first-highlight {
@@ -399,9 +407,9 @@ a.update:hover {
 }
 
 .news_image > img {
-  max-height: 100%;
-  max-width: 100%;
-  margin-bottom: 5%;
+  width: 30vw;
+  margin-right: 2%;
+  height: 85px;
 }
 
 .news_headline {
@@ -412,11 +420,15 @@ a.update:hover {
   text-decoration: none;
   color: black;
   font-weight: 700;
+  font-size: 0.8rem;
   line-height: normal;
   margin-bottom: 5%;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .news_link + div {
+  font-size: 0.8rem;
+  font-family: Helvetica, Arial, sans-serif;
   color: rgb(170, 170, 170);
   margin-bottom: 2%;
 }
@@ -426,7 +438,7 @@ a.update:hover {
 }
 
 main {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -443,6 +455,10 @@ main {
   font-size: 200%;
   font-weight: 900;
   margin-bottom: 20px;
+}
+
+.container {
+  margin: 4%;
 }
 
 .latest_link:hover {
@@ -533,6 +549,347 @@ main {
   position: relative;
   top: 5px;
   font-size: small;
+}
+
+/* category styling */
+
+.category-container {
+  padding: 10px;
+}
+
+.categories {
+  padding: 10px 0 10px 0;
+}
+
+.categories-heading {
+  padding: 9px 10px 19px 9px;
+  color: #f42;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 2px;
+  display: inline-block;
+}
+
+.fa.fa-chevron-right {
+  color: #f42;
+  display: inline;
+  font-size: 20px;
+  line-height: 0.4px;
+}
+
+.categories-heading:hover,
+.fa.fa-chevron-right:hover {
+  color: #000;
+}
+
+.categories-list-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.categories-items1 {
+  list-style: none;
+}
+
+.categories-items-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/imghardfork.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 276px;
+  margin-bottom: 3px;
+  z-index: 2;
+}
+
+.categories-items-image-container {
+  max-height: 1000%;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  padding-top: 170px;
+  right: 0;
+  z-index: 3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.categories-items-image-start {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.categories-items-image-middle {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.categories-items-image-last {
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.categories-items-image-las:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.categories-items2 {
+  background: rgba(255, 68, 34, 0.06);
+  display: flex;
+  color: #f42;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.categories-items2-header {
+  flex: 1;
+  padding: 10px 14px 0;
+}
+
+.categories-items2-heading {
+  display: block;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.categories-items2-text {
+  display: block;
+  font-weight: 900;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.categories-items2-img {
+  flex: 0 0 96px;
+  background-color: #000;
+  height: 96px;
+  width: 96px;
+}
+
+.categories-list-items {
+  color: #555;
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  position: relative;
+  font-size: 100%;
+}
+
+.categories-list-items:hover {
+  color: black;
+  cursor: pointer;
+  transition: ease-in-out 0.4s;
+}
+
+.cat-list-items {
+  border-bottom: 1px solid #eee;
+  margin-top: 10px;
+  margin-left: 30px;
+  opacity: 1;
+  list-style: disc;
+  color: red;
+}
+
+.categories-items-image-middle:hover,
+.categories-items2-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.categories-items-image2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/appsimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 276px;
+  margin-bottom: 3px;
+  z-index: 2;
+}
+
+.categories-items-image3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/gearimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 276px;
+  margin-bottom: 3px;
+  z-index: 2;
+}
+
+.categories-items-image9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/techimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 276px;
+  margin-bottom: 3px;
+  z-index: 2;
+}
+
+.categories-items-image4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/creativityimg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 276px;
+  margin-bottom: 3px;
+  z-index: 2;
+}
+
+.categories-items-image5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/podiumimg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 300px;
+  margin-bottom: 3px;
+  z-index: 2;
+}
+
+.categories-items-image6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/insightimg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 276px;
+  margin-bottom: 3px;
+  z-index: 2;
+}
+
+.categories-items-image7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/launchimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 276px;
+  margin-bottom: 3px;
+  z-index: 2;
+}
+
+.categories-items-image8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/distractimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: 276px;
+  margin-bottom: 3px;
+  z-index: 2;
+}
+
+/* category styling end */
+
+/* latest deals styling */
+
+.g-container {
+  display: grid;
+  grid-gap: 10px;
+  padding-bottom: 150px;
+}
+
+.deals img {
+  width: 40%;
+  padding-top: 10px;
+  float: left;
+  padding-left: 20px;
+}
+
+.latest-deals {
+  position: relative;
+  top: 25px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+
+a.dls,
+a.seeall {
+  color: red;
+  text-decoration: none;
+}
+
+a.dls {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+}
+
+.see {
+  position: relative;
+  left: 270px;
+  bottom: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-weight: 400;
+}
+
+.deals {
+  height: 100px;
+  width: 100%;
+  padding-right: 40px;
+}
+
+a.deals-link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 90%;
+  position: relative;
+  left: 25px;
+  top: 10px;
+}
+
+.deals,
+.price {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.price {
+  font-size: 10px;
+  position: relative;
+  top: 20px;
+  left: 25px;
+  font-weight: 400;
+  color: rgb(59, 59, 59);
+}
+
+s {
+  color: rgb(126, 125, 125);
+}
+
+a.deals-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.triangles {
+  display: none;
+}
+
+/* end of latest deals styling for mobile */
+
+.x-container {
+  display: none;
 }
 
 footer {
@@ -707,7 +1064,7 @@ a.sm {
   float: right;
 }
 
-/* CSS  Media  Query */
+/* CSS  Media  Query for Tab View */
 @media (min-width: 768px) and (max-width: 1023px) {
   .mobile-header {
     display: none;
@@ -728,6 +1085,49 @@ a.sm {
     position: relative;
   }
 
+  /* latest deals styling for tab */
+  .g-container {
+    display: none;
+  }
+
+  .x-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
+    padding-right: 35px;
+    padding-bottom: 100px;
+    grid-row-gap: 25px;
+  }
+
+  .latest-deals {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 25px;
+    padding-left: 20px;
+    top: 35px;
+    margin-left: 0;
+  }
+
+  .deals {
+    height: 250px;
+  }
+
+  a.deals-link {
+    font-size: 70%;
+  }
+
+  .deals img {
+    width: 125%;
+  }
+
+  .see {
+    left: 600px;
+    padding-bottom: 15px;
+  }
+
+  /* end of latest deals styling for tab */
+
   /*  yinkas  start  */
 
   .nonecontent {
@@ -739,6 +1139,7 @@ a.sm {
     display: flex;
     flex-direction: row;
     padding: 10px;
+    margin-bottom: 50px;
   }
 
   .first-highlight {
@@ -784,6 +1185,35 @@ a.sm {
 
   /*  yinka  stops  */
 
+  /* category styling */
+
+  .category-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .categories-items-image3 {
+    height: 300px;
+  }
+
+  .categories-items-image4 {
+    height: 300px;
+  }
+
+  .categories-items-image9 {
+    height: 300px;
+  }
+
+  .categories-items-image5 {
+    height: 300px;
+  }
+
+  .categories-items-image8 {
+    height: 300px;
+  }
+
+  /* category styling end */
+
   .lighter-red {
     background-color: #fffaf8;
     position: relative;
@@ -809,9 +1239,16 @@ a.sm {
     margin: 4%;
   }
 
+  .news_image > img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 5%;
+    height: auto;
+  }
+
   .news_container {
     display: inline;
-    width: 20vw;
+    width: 28vw;
     margin-right: 2%;
   }
 
@@ -825,8 +1262,9 @@ a.sm {
 
   .container {
     display: flex;
-    width: 100vw;
+    width: 90vw;
     flex-wrap: wrap;
+    margin: 2% 7% 7% 7%;
   }
 
   .funding-container {
@@ -900,6 +1338,10 @@ a.sm {
   .mob-footer {
     display: block;
   }
+
+  .main_heading {
+    margin-left: 7%;
+  }
 }
 
 /*  End  of  media  query  */
@@ -928,6 +1370,10 @@ a.sm {
     left: 550px;
   }
 
+  .g-container {
+    display: none;
+  }
+
   /*  yinkas  start  */
 
   .nonecontent {
@@ -941,6 +1387,7 @@ a.sm {
     padding: 3px;
     height: 430px;
     overflow: hidden;
+    margin-bottom: 50px;
   }
 
   .first-highlight {
@@ -1008,6 +1455,25 @@ a.sm {
 
   /*  yinka  stops  */
 
+  /* desktop styling for category section */
+
+  .category-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 50px 0 50px;
+  }
+
+  .categories-items-image-last {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .categories-items-image5 {
+    height: 275px;
+  }
+
+  /* desktop styling for category section */
+
   body {
     width: 100vw;
   }
@@ -1016,6 +1482,13 @@ a.sm {
     display: inline;
     margin-left: 0;
     width: 400px;
+  }
+
+  .news_image > img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 5%;
+    height: auto;
   }
 
   .latest_link {
@@ -1142,9 +1615,71 @@ a.sm {
     right: 0;
     bottom: 52px;
   }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 2% 7% 7% 7%;
+  }
+
+  .news_container {
+    display: inline;
+    width: 20vw;
+    margin-right: 2%;
+  }
+
+  .news_image {
+    width: auto;
+  }
+
+  .main_heading {
+    margin-left: 7%;
+  }
+
+  /* latest deals styling for desktop */
+  .x-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    margin: 50px;
+    padding-right: 40px;
+    padding-bottom: 200px;
+  }
+
+  .deals {
+    height: 350px;
+    font-size: 20px;
+  }
+
+  .deals img {
+    width: 120%;
+  }
+
+  a.deals-link {
+    font-size: 75%;
+  }
+
+  .latest-deals {
+    padding-left: 75px;
+    position: relative;
+    top: 70px;
+    font-size: 25px;
+  }
+
+  .see {
+    left: 1110px;
+    top: 45px;
+  }
+
+  .price {
+    font-size: 70%;
+  }
+
+  /* end of latest deals styling for desktop */
 }
 
-/*  CSS  media  query  for  1024px  */
+/* End CSS  media  query  for  1024px  */
 
 /* CSS  Media  Query */
 @media only screen and (max-width: 320px) {
