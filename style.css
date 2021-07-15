@@ -813,7 +813,6 @@ main {
 .latest-deals {
   position: relative;
   top: 25px;
-  font-size: 24px;
   padding-left: 20px;
   padding-bottom: 5px;
   font-size: 25px;
@@ -1099,10 +1098,8 @@ a.sm {
     color: red;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    top: 20px;
     font-size: 25px;
     padding-left: 20px;
-    position: relative;
     top: 35px;
     margin-left: 0;
   }
@@ -1660,11 +1657,8 @@ a.sm {
     padding-left: 75px;
     position: relative;
     top: 70px;
-    position: relative;
-    top: 70px;
     font-size: 25px;
     padding-left: 70px;
-    margin-left: 0;
   }
 
   .see {
