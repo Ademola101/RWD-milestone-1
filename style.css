@@ -810,6 +810,7 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: 20px;
+  font-size: 25px;
 }
 
 a.dls,
@@ -865,6 +866,10 @@ a.deals-link:hover {
 }
 
 /* end of latest deals styling for mobile */
+
+.x-container {
+  display: none;
+}
 
 footer {
   display: flex;
@@ -1061,10 +1066,15 @@ a.sm {
 
   /* latest deals styling for tab */
   .g-container {
+    display: none;
+  }
+
+  .x-container {
+    display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 5px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
   }
 
   .latest-deals {
@@ -1080,7 +1090,7 @@ a.sm {
   }
 
   .see {
-    left: 650px;
+    left: 600px;
     padding-bottom: 15px;
   }
   /* end of latest deals styling for tab */
@@ -1324,6 +1334,10 @@ a.sm {
   .edge {
     position: relative;
     left: 550px;
+  }
+
+  .g-container {
+    display: none;
   }
 
   /*  yinkas  start  */
@@ -1589,7 +1603,8 @@ a.sm {
   }
 
   /* latest deals styling for desktop */
-  .g-container {
+  .x-container {
+    display: grid;
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 10px;
     padding-right: 10px;
