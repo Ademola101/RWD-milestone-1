@@ -409,7 +409,7 @@ a.update:hover {
 .news_image > img {
   width: 30vw;
   margin-right: 2%;
-  height: 80px;
+  height: 85px;
 }
 
 .news_headline {
@@ -1243,6 +1243,7 @@ a.sm {
     max-height: 100%;
     max-width: 100%;
     margin-bottom: 5%;
+    height: auto;
   }
 
   .news_container {
@@ -1487,6 +1488,7 @@ a.sm {
     max-height: 100%;
     max-width: 100%;
     margin-bottom: 5%;
+    height: auto;
   }
 
   .latest_link {
