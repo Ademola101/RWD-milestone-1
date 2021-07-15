@@ -438,7 +438,7 @@ a.update:hover {
 }
 
 main {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -553,12 +553,16 @@ main {
 
 /* category styling */
 
-.categories {
+.category-container {
   padding: 10px;
 }
 
+.categories {
+  padding: 10px 0 10px 0;
+}
+
 .categories-heading {
-  padding: 19px;
+  padding: 9px 10px 19px 9px;
   color: #f42;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 900;
@@ -582,7 +586,7 @@ main {
 
 .categories-list-container {
   margin: 0;
-  padding: 9px;
+  padding: 0;
   display: flex;
   flex-direction: column;
 }
@@ -625,7 +629,7 @@ main {
 
 .categories-items-image-middle {
   font-family: inherit;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 900;
 }
 
@@ -644,6 +648,7 @@ main {
 .categories-items2 {
   background: rgba(255, 68, 34, 0.06);
   display: flex;
+  color: #f42;
   list-style: none;
   margin-bottom: 10px;
 }
@@ -663,7 +668,7 @@ main {
 
 .categories-items2-text {
   display: block;
-  font-weight: 800;
+  font-weight: 900;
   width: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -678,9 +683,9 @@ main {
 .categories-list-items {
   color: #555;
   display: block;
-  padding: 6px 0 6px 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   position: relative;
-  margin-left: -15px;
   font-size: 100%;
 }
 
@@ -692,12 +697,11 @@ main {
 
 .cat-list-items {
   border-bottom: 1px solid #eee;
-  margin: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
   opacity: 1;
-}
-
-.orangelist {
-  color: #f42;
+  list-style: disc;
+  color: red;
 }
 
 .categories-items-image-middle:hover,
@@ -812,12 +816,11 @@ main {
 }
 
 .latest-deals {
-  color: red;
-  font-family: Arial, Helvetica, sans-serif;
   position: relative;
-  top: 20px;
+  top: 25px;
+  padding-left: 20px;
+  padding-bottom: 5px;
   font-size: 25px;
-  margin-left: 5%;
 }
 
 a.dls,
@@ -826,9 +829,14 @@ a.seeall {
   text-decoration: none;
 }
 
+a.dls {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+}
+
 .see {
   position: relative;
-  left: 280px;
+  left: 270px;
   bottom: 1px;
   font-family: Arial, Helvetica, sans-serif;
   color: red;
@@ -836,7 +844,6 @@ a.seeall {
 }
 
 .deals {
-  font-family: Arial, Helvetica, sans-serif;
   height: 100px;
   width: 100%;
   padding-right: 40px;
@@ -852,11 +859,18 @@ a.deals-link {
   top: 10px;
 }
 
+.deals,
+.price {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .price {
   font-size: 10px;
   position: relative;
   top: 20px;
   left: 25px;
+  font-weight: 400;
+  color: rgb(59, 59, 59);
 }
 
 s {
@@ -1080,17 +1094,18 @@ a.sm {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 5px;
-    padding-right: 20px;
+    padding-right: 35px;
     padding-bottom: 100px;
+    grid-row-gap: 25px;
   }
 
   .latest-deals {
     color: red;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    top: 20px;
     font-size: 25px;
     padding-left: 20px;
+    top: 35px;
     margin-left: 0;
   }
 
@@ -1098,8 +1113,12 @@ a.sm {
     height: 250px;
   }
 
+  a.deals-link {
+    font-size: 70%;
+  }
+
   .deals img {
-    width: 100%;
+    width: 125%;
   }
 
   .see {
@@ -1440,11 +1459,11 @@ a.sm {
   .category-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 50px;
+    padding: 0 50px 0 50px;
   }
 
   .categories-items-image-last {
-    font-size: 15px;
+    font-size: 10px;
     margin-bottom: 5px;
   }
 
@@ -1621,7 +1640,8 @@ a.sm {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 10px;
-    padding-right: 10px;
+    margin: 50px;
+    padding-right: 40px;
     padding-bottom: 200px;
   }
 
@@ -1631,22 +1651,23 @@ a.sm {
   }
 
   .deals img {
-    width: 100%;
+    width: 120%;
+  }
+
+  a.deals-link {
+    font-size: 75%;
   }
 
   .latest-deals {
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 75px;
     position: relative;
-    top: 20px;
+    top: 70px;
     font-size: 25px;
-    padding-left: 20px;
-    margin-left: 0;
   }
 
   .see {
-    left: 1130px;
-    padding-bottom: 10px;
+    left: 1110px;
+    top: 45px;
   }
 
   .price {
