@@ -409,6 +409,7 @@ a.update:hover {
 .news_image > img {
   width: 30vw;
   margin-right: 2%;
+  height: 80px;
 }
 
 .news_headline {
