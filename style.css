@@ -9,6 +9,11 @@
 
 html {
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.mobile-header {
+  width: 100vw;
 }
 
 body {
@@ -807,10 +812,11 @@ main {
 
 .latest-deals {
   position: relative;
-  top: 20px;
+  top: 25px;
   font-size: 24px;
   padding-left: 20px;
   padding-bottom: 5px;
+  font-size: 25px;
 }
 
 a.dls,
@@ -826,7 +832,7 @@ a.dls {
 
 .see {
   position: relative;
-  left: 280px;
+  left: 270px;
   bottom: 1px;
   font-family: Arial, Helvetica, sans-serif;
   color: red;
@@ -1078,15 +1084,21 @@ a.sm {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 5px;
-    padding-right: 20px;
+    padding-right: 35px;
     padding-bottom: 100px;
     grid-row-gap: 25px;
   }
 
   .latest-deals {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
     padding-left: 20px;
     position: relative;
     top: 35px;
+    margin-left: 0;
   }
 
   .deals {
@@ -1094,7 +1106,7 @@ a.sm {
   }
 
   a.deals-link {
-    font-size: 75%;
+    font-size: 70%;
   }
 
   .deals img {
@@ -1642,16 +1654,22 @@ a.sm {
     padding-left: 75px;
     position: relative;
     top: 70px;
+    position: relative;
+    top: 70px;
+    font-size: 25px;
+    padding-left: 70px;
+    margin-left: 0;
   }
 
   .see {
-    left: 1130px;
-    padding-bottom: 10px;
+    left: 1110px;
+    top: 45px;
   }
 
   .price {
     font-size: 70%;
   }
+
   /* end of latest deals styling for desktop */
 }
 
