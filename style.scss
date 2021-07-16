@@ -1,4 +1,11 @@
 /*  hello world */
+
+$yellowbox: yellow;
+$maxvw: 100vw;
+$whyte: white;
+$solidborder: 1px grey solid;
+$apple: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 *,
 *::before,
 *::after {
@@ -26,6 +33,7 @@ body {
   font-family: geo;
   src: url(Geo-Regular.ttf);
 }
+
 .fxheader {
   position: fixed;
   width: 100%;
@@ -38,8 +46,8 @@ body {
 
 .box-3 {
   background-color: white;
-  border-right: 1px grey solid;
-  border-left: 1px grey solid;
+  border-right: $solidborder;
+  border-left: $solidborder;
 }
 
 .box-4 {
@@ -49,7 +57,7 @@ body {
 .box-5 {
   background-color: yellow;
   padding: 10px;
-  border-top: 1px solid #c4c2c2;
+  border-top: 1px solid rgb(196, 194, 194);
 }
 
 .boxx-5 {
@@ -91,81 +99,82 @@ a.callup-1 {
   font-size: 80%;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 10px;
-}
 
-.num ul {
+ul {
   list-style: none;
   display: flex;
   position: relative;
   padding: 5px;
 }
 
-.num .dropdown {
+.dropdown {
   display: none;
   position: absolute;
   top: 25px;
   right: -100px;
   background-color: #000;
 }
-
-.num .num ul li:hover .dropdown {
+    
+.num ul li:hover .dropdown {
   display: block;
 }
-
-.num .tcc {
+    
+.tcc {
   display: block;
   margin: 10px;
 }
-
-.num .up {
+    
+.up {
   position: relative;
   top: 5px;
 }
 
-.num a.topnav {
-  color: #757272;
+a.topnav {
+  color: rgb(117, 114, 114);
   text-decoration: none;
 }
 
-.num a.topnav:hover {
+a.topnav:hover {
   color: white;
 }
 
-.num .iconify {
+.iconify {
   position: relative;
   top: 3px;
 }
-
-.num .events {
+  
+.events {
   position: relative;
   bottom: 1px;
 }
-
-.num .edge {
+  
+.edge {
   position: relative;
   top: 4px;
 }
-
-.num li {
+  
+li {
   list-style: none;
   margin: 0 10px;
 }
-
-.num .bop {
+  
+.bop {
   width: 150px;
   padding: 3px;
 }
-
-.num a.drp {
+  
+a.drp {
   text-decoration: none;
-  color: #4b4b4b;
+  color: rgb(75, 75, 75);
 }
-
-.num a.drp:hover {
+  
+a.drp:hover {
   color: white;
   background-color: #333;
   padding: 5px;
 }
+}
+
 
 .deux {
   text-align: right;
@@ -184,7 +193,7 @@ a.callup-1 {
 }
 
 .cont {
-  color: #616060;
+  color: rgb(97, 96, 96);
   background-color: white;
 }
 
@@ -196,7 +205,7 @@ a.callup-1 {
 
 a.readme {
   text-decoration: none;
-  color: #726f6f;
+  color: rgb(114, 111, 111);
   padding-right: 25px;
   font-size: 100%;
 }
@@ -263,7 +272,7 @@ a.update:hover {
 }
 
 .main_heading {
-  color: #ff4422;
+  color: rgb(255, 68, 34);
   text-decoration: none;
   font-weight: bolder;
   font-size: 1.5rem;
@@ -271,6 +280,7 @@ a.update:hover {
 }
 
 /*  fullwidth  */
+
 .nonecontent {
   display: block;
   height: 50px;
@@ -291,7 +301,7 @@ a.update:hover {
 
 .first-highlight {
   transition: background-color 0.4s ease;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), black), url("images/firsihighlight.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url("images/firsihighlight.jpg");
   background-size: 100% 100%;
   display: block;
   max-width: 100%;
@@ -316,7 +326,7 @@ a.update:hover {
 }
 
 .first-highlight-sub-text {
-  color: rgba(255, 255, 255, 0.6);
+  color: hsla(0, 0%, 100%, 0.6);
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 20px;
@@ -326,7 +336,7 @@ a.update:hover {
 
 .second-highlight {
   transition: background-color 0.4s ease;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), black), url("images/seconhighlight.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url("images/seconhighlight.webp");
   background-size: 100% 100%;
   display: block;
   max-width: 100%;
@@ -343,7 +353,7 @@ a.update:hover {
 
 .third-highlight {
   transition: background-color 0.4s ease;
-  background: linear-gradient(rgba(0, 0, 0, 0.25), black), url("images/thirdhighlight.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url("images/thirdhighlight.webp");
   background-size: 100% 100%;
   display: block;
   max-width: 100%;
@@ -367,7 +377,7 @@ a.update:hover {
 }
 
 .other-highlight-sub-text {
-  color: rgba(255, 255, 255, 0.6);
+  color: hsla(0, 0%, 100%, 0.6);
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
@@ -381,18 +391,19 @@ a.update:hover {
 }
 
 .fa-share-alt {
-  color: rgba(255, 255, 255, 0.6);
+  color: hsla(0, 0%, 100%, 0.6);
   margin-right: -7px;
   margin-left: 5px;
 }
 
 .fa-clock {
-  color: rgba(255, 255, 255, 0.6);
+  color: hsla(0, 0%, 100%, 0.6);
   margin-right: -7px;
   margin-left: 5px;
 }
 
 /*  break  */
+
 .news_container {
   display: flex;
 }
@@ -425,7 +436,7 @@ a.update:hover {
 .news_link + div {
   font-size: 0.8rem;
   font-family: Helvetica, Arial, sans-serif;
-  color: #aaaaaa;
+  color: rgb(170, 170, 170);
   margin-bottom: 2%;
 }
 
@@ -447,7 +458,7 @@ main {
 
 .latest_link {
   text-decoration: none;
-  color: #ff4422;
+  color: rgb(255, 68, 34);
   font-size: 200%;
   font-weight: 900;
   margin-bottom: 20px;
@@ -459,7 +470,7 @@ main {
 
 .latest_link:hover {
   text-decoration: none;
-  color: #0c0c0b;
+  color: rgb(12, 12, 11);
   font-size: 200%;
   font-weight: 900;
   margin-bottom: 20px;
@@ -467,20 +478,20 @@ main {
 
 .small_latest_link {
   text-decoration: none;
-  color: #ff4422;
+  color: rgb(255, 68, 34);
   display: block;
   margin-top: 2%;
 }
 
 .small_latest_link-s {
   text-decoration: none;
-  color: #ff4422;
+  color: rgb(255, 68, 34);
   display: block;
   margin-top: 2%;
 }
 
 .small_latest_link-s:hover {
-  color: #070707;
+  color: rgb(7, 7, 7);
 }
 
 .latest-add-container {
@@ -548,6 +559,7 @@ main {
 }
 
 /* category styling */
+
 .category-container {
   padding: 10px;
 }
@@ -559,7 +571,7 @@ main {
 .categories-heading {
   padding: 9px 10px 19px 9px;
   color: #f42;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: $apple;
   font-weight: 900;
   font-size: 30px;
   letter-spacing: 1px;
@@ -612,7 +624,7 @@ main {
   padding-top: 170px;
   right: 0;
   z-index: 3;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .categories-items-image-start {
@@ -632,7 +644,7 @@ main {
   text-decoration: none;
   font-size: 10px;
   letter-spacing: 1px;
-  color: rgba(255, 255, 255, 0.6);
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .categories-items-image-las:hover {
@@ -658,14 +670,14 @@ main {
   font-weight: 600;
   letter-spacing: 1px;
   line-height: 40px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .categories-items2-text {
   display: block;
   font-weight: 900;
   width: 100%;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .categories-items2-img {
@@ -794,7 +806,9 @@ main {
 }
 
 /* category styling end */
+
 /* latest deals styling */
+
 .g-container {
   display: grid;
   grid-gap: 10px;
@@ -823,7 +837,7 @@ a.seeall {
 }
 
 a.dls {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: $apple;
   font-weight: 900;
 }
 
@@ -854,7 +868,7 @@ a.deals-link {
 
 .deals,
 .price {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: $apple;
 }
 
 .price {
@@ -863,11 +877,11 @@ a.deals-link {
   top: 20px;
   left: 25px;
   font-weight: 400;
-  color: #3b3b3b;
+  color: rgb(59, 59, 59);
 }
 
 s {
-  color: #7e7d7d;
+  color: rgb(126, 125, 125);
 }
 
 a.deals-link:hover {
@@ -880,6 +894,7 @@ a.deals-link:hover {
 }
 
 /* end of latest deals styling for mobile */
+
 .x-container {
   display: none;
 }
@@ -890,7 +905,7 @@ footer {
 }
 
 .footer-body {
-  background-color: #3b3a3a;
+  background-color: rgb(59, 58, 58);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -906,7 +921,7 @@ a.footer {
 }
 
 a.sm {
-  background-color: #494848;
+  background-color: rgb(73, 72, 72);
   border-radius: 60px;
   padding: 10px;
   width: 2px;
@@ -992,7 +1007,7 @@ a.sm {
 
 .tel-text {
   text-decoration: none;
-  color: #807777;
+  color: rgb(128, 119, 119);
 }
 
 .lighter-red {
@@ -1048,7 +1063,7 @@ a.sm {
   position: fixed;
   bottom: 3px;
   right: 3px;
-  background-color: #4a4afc;
+  background-color: rgb(74, 74, 252);
   z-index: 1;
 }
 
@@ -1119,7 +1134,9 @@ a.sm {
   }
 
   /* end of latest deals styling for tab */
+
   /*  yinkas  start  */
+
   .nonecontent {
     display: block;
     height: 90px;
@@ -1174,7 +1191,9 @@ a.sm {
   }
 
   /*  yinka  stops  */
+
   /* category styling */
+
   .category-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -1201,6 +1220,7 @@ a.sm {
   }
 
   /* category styling end */
+
   .lighter-red {
     background-color: #fffaf8;
     position: relative;
@@ -1215,7 +1235,7 @@ a.sm {
   }
 
   .small_latest_link:hover {
-    color: #181717;
+    color: rgb(24, 23, 23);
   }
 
   .none {
@@ -1330,8 +1350,11 @@ a.sm {
     margin-left: 7%;
   }
 }
+
 /*  End  of  media  query  */
+
 /*  CSS  media  for  Desktop  query  for  1024px  */
+
 @media only screen and (min-width: 1024px) {
   .mobile-header {
     display: none;
@@ -1359,6 +1382,7 @@ a.sm {
   }
 
   /*  yinkas  start  */
+
   .nonecontent {
     display: block;
     height: 110px;
@@ -1374,7 +1398,7 @@ a.sm {
   }
 
   .first-highlight {
-    background: linear-gradient(rgba(255, 0, 0, 0.25), black), url("images/firsihighlight.jpg");
+    background: linear-gradient(rgba(255, 0, 0, 0.25), rgba(0, 0, 0, 9.25)), url("images/firsihighlight.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1392,7 +1416,7 @@ a.sm {
   .first-highlight-text-img {
     width: 70%;
     padding: 10px;
-    grid-column: 1/span 2;
+    grid-column: 1 / span 2;
   }
 
   .logo-time {
@@ -1437,14 +1461,16 @@ a.sm {
   }
 
   /*  yinka  stops  */
+
   /* desktop styling for category section */
+
   .category-container {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 0 50px 0 50px;
   }
 
-  .categories-items-image-last {
+.categories-items-image-last {
     font-size: 10px;
     margin-bottom: 5px;
   }
@@ -1454,6 +1480,7 @@ a.sm {
   }
 
   /* desktop styling for category section */
+
   body {
     width: 100vw;
   }
@@ -1473,7 +1500,7 @@ a.sm {
 
   .latest_link {
     text-decoration: none;
-    color: #ff4422;
+    color: rgb(255, 68, 34);
     font-size: 200%;
     font-weight: 900;
     margin-bottom: 20px;
@@ -1482,25 +1509,25 @@ a.sm {
 
   body .small_latest_link {
     text-decoration: none;
-    color: #ff4422;
+    color: rgb(255, 68, 34);
     display: inline;
-    border-right: 2px solid #ff4422;
+    border-right: 2px solid rgb(255, 68, 34);
     margin-right: 4%;
     padding-right: 4%;
   }
 
   body .small_latest_link:hover {
     text-decoration: none;
-    color: #0c0c0c;
+    color: rgb(12, 12, 12);
     display: inline;
-    border-right: 2px solid #ff4422;
+    border-right: 2px solid rgb(255, 68, 34);
     margin-right: 4%;
     padding-right: 4%;
   }
 
   body .small_latest_link-s {
     text-decoration: none;
-    color: #ff4422;
+    color: rgb(255, 68, 34);
     display: inline;
     margin-right: 4%;
     padding-right: 4%;
@@ -1566,7 +1593,7 @@ a.sm {
 
   .latest_link:hover {
     text-decoration: none;
-    color: #0c0c0b;
+    color: rgb(12, 12, 11);
     font-size: 200%;
     font-weight: 900;
     margin-bottom: 20px;
@@ -1658,7 +1685,9 @@ a.sm {
 
   /* end of latest deals styling for desktop */
 }
+
 /* End CSS  media  query  for  1024px  */
+
 /* CSS  Media  Query */
 @media only screen and (max-width: 320px) {
   .ring_link {
@@ -1692,5 +1721,3 @@ a.sm {
     width: 370px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
